@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\UNO.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\Practica 1 - UNO\\Game\\src\\UNO.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/src/UNO.cpp",
+  "output": "CMakeFiles/UNO.dir/src/UNO.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\UnoEngine.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\Practica 1 - UNO\\Game\\src\\engine\\UnoEngine.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/src/engine/UnoEngine.cpp",
+  "output": "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\menus\\Menu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\Practica 1 - UNO\\Game\\src\\menus\\Menu.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/src/menus/Menu.cpp",
+  "output": "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
+}
+]
