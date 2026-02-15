@@ -3,13 +3,17 @@
 
 template <typename T>
 class Node {
-public:
-    T data;
-    Node<T>* next;
-    Node<T>* prev;
     
-    Node(T value) : data(value), next(nullptr), prev(nullptr) {}
-    ~Node() {}
+    private:
+        T* data;
+        Node<T>* next;
+        Node<T>* prev;
+    
+    public:
+        Node(T* value);
+        T* getData();
+        Node<T>* getNext();
+        Node<T>* getPrev();
 };
 
 #endif

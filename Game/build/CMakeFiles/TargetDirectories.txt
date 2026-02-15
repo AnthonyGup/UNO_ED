@@ -1,3 +1,0 @@
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build/CMakeFiles/UNO.dir
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build/CMakeFiles/edit_cache.dir
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/Practica 1 - UNO/Game/build/CMakeFiles/rebuild_cache.dir
