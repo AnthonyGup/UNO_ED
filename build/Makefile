@@ -176,6 +176,30 @@ src/engine/UnoEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.s
 .PHONY : src/engine/UnoEngine.cpp.s
 
+src/exceptions/ListException.obj: src/exceptions/ListException.cpp.obj
+.PHONY : src/exceptions/ListException.obj
+
+# target to build an object file
+src/exceptions/ListException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj
+.PHONY : src/exceptions/ListException.cpp.obj
+
+src/exceptions/ListException.i: src/exceptions/ListException.cpp.i
+.PHONY : src/exceptions/ListException.i
+
+# target to preprocess a source file
+src/exceptions/ListException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.i
+.PHONY : src/exceptions/ListException.cpp.i
+
+src/exceptions/ListException.s: src/exceptions/ListException.cpp.s
+.PHONY : src/exceptions/ListException.s
+
+# target to generate assembly for a file
+src/exceptions/ListException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.s
+.PHONY : src/exceptions/ListException.cpp.s
+
 src/lists/CircularList.obj: src/lists/CircularList.cpp.obj
 .PHONY : src/lists/CircularList.obj
 
@@ -287,6 +311,9 @@ help:
 	@echo ... src/engine/UnoEngine.obj
 	@echo ... src/engine/UnoEngine.i
 	@echo ... src/engine/UnoEngine.s
+	@echo ... src/exceptions/ListException.obj
+	@echo ... src/exceptions/ListException.i
+	@echo ... src/exceptions/ListException.s
 	@echo ... src/lists/CircularList.obj
 	@echo ... src/lists/CircularList.i
 	@echo ... src/lists/CircularList.s

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UNO.dir/src/UNO.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
   "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj.d"
+  "CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj"
+  "CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj"
   "CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj"

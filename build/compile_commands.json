@@ -13,6 +13,12 @@
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\exceptions\\ListException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\ListException.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/ListException.cpp",
+  "output": "CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\CircularList.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\CircularList.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/CircularList.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj"
