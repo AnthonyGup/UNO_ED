@@ -1,5 +1,11 @@
 #include "Card.h"
 
+Card::Card(string& symbol, bool hasFlip, int iColor) : indexColor(iColor) {
+    this->hasFlip = hasFlip;
+    this->setSimbolo(symbol, 0);
+    this->actualColor = colorsN[iColor];
+}
+
 Card::~Card() {}
 
 string Card::center(string& text) {
@@ -15,8 +21,53 @@ string Card::center(string& text) {
     return string(izq, ' ') + t + string(der, ' ');
 }
 
+void Card::setSimbolo(string& sim, int index) {
+    this->simbolo[index] = sim;
+}
+
 string Card::renderLine(int index, string& valor) {
-    if (index == 0) return "┌────┐";
-    if (index == 1) return "│ " + center(valor) + " │";
-    return "└────┘";
+    if (index == 0) {
+        return this->actualColor + "┌────┐" + this->RESET;
+    }
+    if (index == 1) { 
+        return this->actualColor + "│ " + center(valor) + " │" + this->RESET;
+    }
+    return this->actualColor + "└────┘" + this->RESET;
+    /*
+        for (int fila = 0; fila < Carta::ALTO; fila++) {
+            for (int i = 0; i < numCartas; i++) {
+                cout << mano[i]->renderLinea(fila) << " ";
+            }
+        cout << endl;
+        }
+*/
+}
+
+bool Card::isFlipped() {
+    return flipped; 
+}
+
+void Card::setFlipped(bool flipped) {
+    this->flipped = flipped;
+}
+
+void Card::setHandIndex(int newIndex) {
+    this->HandIndex = newIndex;
+}
+
+int Card::getHandIndex() {
+    return this->HandIndex;
+}
+
+void Card::flip() {
+    if (this->hasFlip)
+	{
+		this->setFlipped(!this->isFlipped()); 
+		this->changeFlip();
+	}
+}
+
+void Card::setFlipAtributes(int colorFlip, string& simbolFlip) {
+    this->indexColorFlip = colorFlip;
+    this->setSimbolo(simbolFlip, 1);
 }

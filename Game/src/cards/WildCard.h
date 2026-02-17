@@ -3,26 +3,15 @@
 
 #include "Card.h"
 
+using UnoEngine = class UnoEngine; // Declaración anticipada para evitar dependencias circulares
 class WildCard : public Card {
 protected:
-    int chosenColor;
-    int flipChosenColor;
-    bool hasFlip;
 
 public:
-    WildCard();
+    WildCard(string& symbol, bool hasFlip, int iColor);
     ~WildCard() override;
 
-    virtual void applyEffect() = 0;
-
-    void setChosenColor(int color);
-    int getChosenColor();
-
-    void setFlipChosenColor(int color);
-    int getChosenColor(bool flipped);
-
-    void enableFlipSide();
-    bool hasFlipSide();
+    virtual void applyEffect(UnoEngine& engine); // Método abstracto para aplicar el efecto de la carta
 };
 
 #endif

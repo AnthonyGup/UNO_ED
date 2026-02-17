@@ -12,6 +12,8 @@ class Node {
     public:
         Node(T* value);
         T* getData();
+        void setNext(Node<T>* nextNode);
+        void setPrev(Node<T>* prevNode);
         Node<T>* getNext();
         Node<T>* getPrev();
 };

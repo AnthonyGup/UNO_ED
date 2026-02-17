@@ -17,7 +17,7 @@ public:
     void insert(T* value);
     bool insertAt(int index, T* value);
     bool deleteAt(int index);
-    T getAt(int index);
+    T* getAt(int index);
     bool isEmpty();
     int getSize();
     void clear();

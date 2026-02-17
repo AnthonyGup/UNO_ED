@@ -14,8 +14,8 @@ public:
     ~Stack();
     
     void insert(T* value);
-    T remove();
-    T getTop() const;
+    void remove();
+    T* getTop() const;
     bool isEmpty() const;
     int getSize() const;
     void clear();

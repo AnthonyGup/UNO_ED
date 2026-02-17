@@ -40,8 +40,8 @@ void LinkedList<T>::insert(T *value)
         }
         current->setNext(newNode);
         newNode->setPrev(current);
+        size++;
     }
-    size++;
 }
 
 template <typename T>
@@ -51,14 +51,13 @@ bool LinkedList<T>::insertAt(int index, T* value)
         throw InvalidIndexException(index, size);
     }
 
-    Node<T> *newNode = new Node<T>(value);
-
     if (index == 0)
     {
         return insertFirst(value);
     }
     else
     {
+        Node<T> *newNode = new Node<T>(value);
         Node<T> *current = head;
         for (int i = 0; i < index - 1; i++)
         {
@@ -121,7 +120,7 @@ void LinkedList<T>::clear()
 }
 
 template <typename T>
-T LinkedList<T>::getAt(int index)
+T* LinkedList<T>::getAt(int index)
 {
     if (index < 0 || index >= size) {
         throw InvalidIndexException(index, size);

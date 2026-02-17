@@ -22,3 +22,13 @@ template <typename T>
 Node<T>* Node<T>::getPrev() {
     return prev;
 }
+
+template <typename T>
+void Node<T>::setNext(Node<T>* nextNode) {
+    this->next = nextNode;
+}
+
+template <typename T>
+void Node<T>::setPrev(Node<T>* prevNode) {
+    this->prev = prevNode;
+}

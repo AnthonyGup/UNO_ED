@@ -152,6 +152,78 @@ src/UNO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/UNO.cpp.s
 .PHONY : src/UNO.cpp.s
 
+src/cards/Card.obj: src/cards/Card.cpp.obj
+.PHONY : src/cards/Card.obj
+
+# target to build an object file
+src/cards/Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/Card.cpp.obj
+.PHONY : src/cards/Card.cpp.obj
+
+src/cards/Card.i: src/cards/Card.cpp.i
+.PHONY : src/cards/Card.i
+
+# target to preprocess a source file
+src/cards/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/Card.cpp.i
+.PHONY : src/cards/Card.cpp.i
+
+src/cards/Card.s: src/cards/Card.cpp.s
+.PHONY : src/cards/Card.s
+
+# target to generate assembly for a file
+src/cards/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/Card.cpp.s
+.PHONY : src/cards/Card.cpp.s
+
+src/cards/NormalCard.obj: src/cards/NormalCard.cpp.obj
+.PHONY : src/cards/NormalCard.obj
+
+# target to build an object file
+src/cards/NormalCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.obj
+.PHONY : src/cards/NormalCard.cpp.obj
+
+src/cards/NormalCard.i: src/cards/NormalCard.cpp.i
+.PHONY : src/cards/NormalCard.i
+
+# target to preprocess a source file
+src/cards/NormalCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.i
+.PHONY : src/cards/NormalCard.cpp.i
+
+src/cards/NormalCard.s: src/cards/NormalCard.cpp.s
+.PHONY : src/cards/NormalCard.s
+
+# target to generate assembly for a file
+src/cards/NormalCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.s
+.PHONY : src/cards/NormalCard.cpp.s
+
+src/cards/WildCard.obj: src/cards/WildCard.cpp.obj
+.PHONY : src/cards/WildCard.obj
+
+# target to build an object file
+src/cards/WildCard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj
+.PHONY : src/cards/WildCard.cpp.obj
+
+src/cards/WildCard.i: src/cards/WildCard.cpp.i
+.PHONY : src/cards/WildCard.i
+
+# target to preprocess a source file
+src/cards/WildCard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/WildCard.cpp.i
+.PHONY : src/cards/WildCard.cpp.i
+
+src/cards/WildCard.s: src/cards/WildCard.cpp.s
+.PHONY : src/cards/WildCard.s
+
+# target to generate assembly for a file
+src/cards/WildCard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/WildCard.cpp.s
+.PHONY : src/cards/WildCard.cpp.s
+
 src/engine/UnoEngine.obj: src/engine/UnoEngine.cpp.obj
 .PHONY : src/engine/UnoEngine.obj
 
@@ -272,6 +344,54 @@ src/lists/Node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/Node.cpp.s
 .PHONY : src/lists/Node.cpp.s
 
+src/lists/NodeC.obj: src/lists/NodeC.cpp.obj
+.PHONY : src/lists/NodeC.obj
+
+# target to build an object file
+src/lists/NodeC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj
+.PHONY : src/lists/NodeC.cpp.obj
+
+src/lists/NodeC.i: src/lists/NodeC.cpp.i
+.PHONY : src/lists/NodeC.i
+
+# target to preprocess a source file
+src/lists/NodeC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/NodeC.cpp.i
+.PHONY : src/lists/NodeC.cpp.i
+
+src/lists/NodeC.s: src/lists/NodeC.cpp.s
+.PHONY : src/lists/NodeC.s
+
+# target to generate assembly for a file
+src/lists/NodeC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/NodeC.cpp.s
+.PHONY : src/lists/NodeC.cpp.s
+
+src/lists/Stack.obj: src/lists/Stack.cpp.obj
+.PHONY : src/lists/Stack.obj
+
+# target to build an object file
+src/lists/Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj
+.PHONY : src/lists/Stack.cpp.obj
+
+src/lists/Stack.i: src/lists/Stack.cpp.i
+.PHONY : src/lists/Stack.i
+
+# target to preprocess a source file
+src/lists/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/Stack.cpp.i
+.PHONY : src/lists/Stack.cpp.i
+
+src/lists/Stack.s: src/lists/Stack.cpp.s
+.PHONY : src/lists/Stack.s
+
+# target to generate assembly for a file
+src/lists/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/Stack.cpp.s
+.PHONY : src/lists/Stack.cpp.s
+
 src/menus/Menu.obj: src/menus/Menu.cpp.obj
 .PHONY : src/menus/Menu.obj
 
@@ -296,6 +416,54 @@ src/menus/Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/menus/Menu.cpp.s
 .PHONY : src/menus/Menu.cpp.s
 
+src/wildcards/PlusFourWildcard.obj: src/wildcards/PlusFourWildcard.cpp.obj
+.PHONY : src/wildcards/PlusFourWildcard.obj
+
+# target to build an object file
+src/wildcards/PlusFourWildcard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj
+.PHONY : src/wildcards/PlusFourWildcard.cpp.obj
+
+src/wildcards/PlusFourWildcard.i: src/wildcards/PlusFourWildcard.cpp.i
+.PHONY : src/wildcards/PlusFourWildcard.i
+
+# target to preprocess a source file
+src/wildcards/PlusFourWildcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.i
+.PHONY : src/wildcards/PlusFourWildcard.cpp.i
+
+src/wildcards/PlusFourWildcard.s: src/wildcards/PlusFourWildcard.cpp.s
+.PHONY : src/wildcards/PlusFourWildcard.s
+
+# target to generate assembly for a file
+src/wildcards/PlusFourWildcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.s
+.PHONY : src/wildcards/PlusFourWildcard.cpp.s
+
+src/wildcards/PlusTwoWildcard.obj: src/wildcards/PlusTwoWildcard.cpp.obj
+.PHONY : src/wildcards/PlusTwoWildcard.obj
+
+# target to build an object file
+src/wildcards/PlusTwoWildcard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj
+.PHONY : src/wildcards/PlusTwoWildcard.cpp.obj
+
+src/wildcards/PlusTwoWildcard.i: src/wildcards/PlusTwoWildcard.cpp.i
+.PHONY : src/wildcards/PlusTwoWildcard.i
+
+# target to preprocess a source file
+src/wildcards/PlusTwoWildcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.i
+.PHONY : src/wildcards/PlusTwoWildcard.cpp.i
+
+src/wildcards/PlusTwoWildcard.s: src/wildcards/PlusTwoWildcard.cpp.s
+.PHONY : src/wildcards/PlusTwoWildcard.s
+
+# target to generate assembly for a file
+src/wildcards/PlusTwoWildcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.s
+.PHONY : src/wildcards/PlusTwoWildcard.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -308,6 +476,15 @@ help:
 	@echo ... src/UNO.obj
 	@echo ... src/UNO.i
 	@echo ... src/UNO.s
+	@echo ... src/cards/Card.obj
+	@echo ... src/cards/Card.i
+	@echo ... src/cards/Card.s
+	@echo ... src/cards/NormalCard.obj
+	@echo ... src/cards/NormalCard.i
+	@echo ... src/cards/NormalCard.s
+	@echo ... src/cards/WildCard.obj
+	@echo ... src/cards/WildCard.i
+	@echo ... src/cards/WildCard.s
 	@echo ... src/engine/UnoEngine.obj
 	@echo ... src/engine/UnoEngine.i
 	@echo ... src/engine/UnoEngine.s
@@ -323,9 +500,21 @@ help:
 	@echo ... src/lists/Node.obj
 	@echo ... src/lists/Node.i
 	@echo ... src/lists/Node.s
+	@echo ... src/lists/NodeC.obj
+	@echo ... src/lists/NodeC.i
+	@echo ... src/lists/NodeC.s
+	@echo ... src/lists/Stack.obj
+	@echo ... src/lists/Stack.i
+	@echo ... src/lists/Stack.s
 	@echo ... src/menus/Menu.obj
 	@echo ... src/menus/Menu.i
 	@echo ... src/menus/Menu.s
+	@echo ... src/wildcards/PlusFourWildcard.obj
+	@echo ... src/wildcards/PlusFourWildcard.i
+	@echo ... src/wildcards/PlusFourWildcard.s
+	@echo ... src/wildcards/PlusTwoWildcard.obj
+	@echo ... src/wildcards/PlusTwoWildcard.i
+	@echo ... src/wildcards/PlusTwoWildcard.s
 .PHONY : help
 
 

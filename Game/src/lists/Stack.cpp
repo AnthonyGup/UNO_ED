@@ -18,21 +18,19 @@ void Stack<T>::insert(T* value) {
 }
 
 template <typename T>
-T Stack<T>::remove() {
+void Stack<T>::remove() {
     if (isEmpty()) {
         throw EmptyListException();
     }
-    
-    T value = top->getData();
+
     Node<T>* temp = top;
     top = top->getNext();
     delete temp;
     size--;
-    return value;
 }
 
 template <typename T>
-T Stack<T>::getTop() const {
+T* Stack<T>::getTop() const {
     if (isEmpty()) {
         throw EmptyListException();
     }
