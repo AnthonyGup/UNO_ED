@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
   "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj.d"
+  "CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj"
+  "CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj"
   "CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj"

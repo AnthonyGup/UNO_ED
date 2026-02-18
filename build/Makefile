@@ -416,6 +416,30 @@ src/menus/Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/menus/Menu.cpp.s
 .PHONY : src/menus/Menu.cpp.s
 
+src/wildcards/ColorWildcard.obj: src/wildcards/ColorWildcard.cpp.obj
+.PHONY : src/wildcards/ColorWildcard.obj
+
+# target to build an object file
+src/wildcards/ColorWildcard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj
+.PHONY : src/wildcards/ColorWildcard.cpp.obj
+
+src/wildcards/ColorWildcard.i: src/wildcards/ColorWildcard.cpp.i
+.PHONY : src/wildcards/ColorWildcard.i
+
+# target to preprocess a source file
+src/wildcards/ColorWildcard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.i
+.PHONY : src/wildcards/ColorWildcard.cpp.i
+
+src/wildcards/ColorWildcard.s: src/wildcards/ColorWildcard.cpp.s
+.PHONY : src/wildcards/ColorWildcard.s
+
+# target to generate assembly for a file
+src/wildcards/ColorWildcard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.s
+.PHONY : src/wildcards/ColorWildcard.cpp.s
+
 src/wildcards/PlusFourWildcard.obj: src/wildcards/PlusFourWildcard.cpp.obj
 .PHONY : src/wildcards/PlusFourWildcard.obj
 
@@ -509,6 +533,9 @@ help:
 	@echo ... src/menus/Menu.obj
 	@echo ... src/menus/Menu.i
 	@echo ... src/menus/Menu.s
+	@echo ... src/wildcards/ColorWildcard.obj
+	@echo ... src/wildcards/ColorWildcard.i
+	@echo ... src/wildcards/ColorWildcard.s
 	@echo ... src/wildcards/PlusFourWildcard.obj
 	@echo ... src/wildcards/PlusFourWildcard.i
 	@echo ... src/wildcards/PlusFourWildcard.s

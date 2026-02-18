@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/NodeC.cpp" "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Stack.cpp" "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp" "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj.d"
+  "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/ColorWildcard.cpp" "CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/PlusFourWildcard.cpp" "CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/PlusTwoWildcard.cpp" "CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj.d"
   )

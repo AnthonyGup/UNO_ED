@@ -16,7 +16,6 @@ public:
 
     void changeFlip() override;
 
-
     int getDrawAmount();
     void setDrawAmount(int amountIndex);
 };

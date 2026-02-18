@@ -1,13 +1,19 @@
 #ifndef PLUS_FOUR_WILDCARD_H
 #define PLUS_FOUR_WILDCARD_H
 
-#include "WildCard.h"
+#include "../cards/WildCard.h"
 class PlusFourWildcard : public WildCard {
-    public:
-        PlusFourWildcard();
-        ~PlusFourWildcard() override;
+    private:
+        int drawAmount;
 
+    public:
+        PlusFourWildcard(string& symbol, bool hasFlip, int iColor);
+        ~PlusFourWildcard() override;
         void applyEffect(UnoEngine& engine) override; // Implementación del efecto específico para esta carta
-        void flip() override; // Implementación del método flip específico para esta carta
+
+        void changeFlip() override; 
+
+        void setDrawAmount(int amountIndex);
+        int getDrawAmount();
 };
 #endif 

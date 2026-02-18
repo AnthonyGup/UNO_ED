@@ -36,7 +36,8 @@ string Card::renderLine(int index, string& valor) {
     /*
         for (int fila = 0; fila < Carta::ALTO; fila++) {
             for (int i = 0; i < numCartas; i++) {
-                cout << mano[i]->renderLinea(fila) << " ";
+                cout << mano[i]->renderLinea(
+                ) << " ";
             }
         cout << endl;
         }

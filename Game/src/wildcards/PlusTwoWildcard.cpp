@@ -8,6 +8,7 @@ PlusTwoWildcard::~PlusTwoWildcard() {}
 
 void PlusTwoWildcard::applyEffect(UnoEngine& engine) {
     //engine.plus(this->getDrawAmount());
+
 }
 
 void PlusTwoWildcard::changeFlip() {
