@@ -1,21 +1,21 @@
 #ifndef STACK_H
 #define STACK_H
 
-#include "Node.h"
+#include "../cards/Card.h"
 
-template <typename T>
 class Stack {
 private:
-    Node<T>* top;
-    int size;
+    Card** array;     // Arreglo de punteros a Card
+    int topIndex;     // Índice del elemento en el tope
+    int capacity;     // Capacidad del arreglo
 
 public:
-    Stack();
+    Stack(int size);
     ~Stack();
     
-    void insert(T* value);
+    void insert(Card* value);
     void remove();
-    T* getTop() const;
+    Card* getTop() const;
     bool isEmpty() const;
     int getSize() const;
     void clear();

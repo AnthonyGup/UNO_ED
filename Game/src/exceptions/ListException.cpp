@@ -15,3 +15,6 @@ InvalidIndexException::InvalidIndexException(int index, int size)
 
 EmptyListException::EmptyListException() 
     : ListException("La lista está vacía") {}
+
+FullListException::FullListException() 
+    : ListException("El stack está lleno") {}

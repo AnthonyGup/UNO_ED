@@ -85,7 +85,10 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15,
+				16,
+				17
 			]
 		}
 	],
@@ -132,7 +135,10 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15,
+				16,
+				17
 			]
 		}
 	],
@@ -160,6 +166,42 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/cards/WildCard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cards/wildcards/BlockWildcard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cards/wildcards/ColorWildcard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cards/wildcards/PlusFourWildcard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cards/wildcards/PlusTwoWildcard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cards/wildcards/ReverseWildcard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/DeckMaker.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -208,24 +250,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/menus/Menu.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/wildcards/ColorWildcard.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/wildcards/PlusFourWildcard.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/wildcards/PlusTwoWildcard.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

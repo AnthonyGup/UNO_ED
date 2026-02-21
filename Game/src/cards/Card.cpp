@@ -1,9 +1,9 @@
 #include "Card.h"
 
-Card::Card(string& symbol, bool hasFlip, int iColor) : indexColor(iColor) {
+Card::Card(string& symbol, bool hasFlip, int iColor) : INDEX_COLOR(iColor) {
     this->hasFlip = hasFlip;
     this->setSimbolo(symbol, 0);
-    this->actualColor = colorsN[iColor];
+    this->actualColor = COLORS_N[iColor];
 }
 
 Card::~Card() {}

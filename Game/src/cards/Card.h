@@ -9,12 +9,12 @@ protected:
     const string RESET = "\033[0m"; // Código ANSI para resetear el color
     const int WIDTH = 6; // Ancho fijo para renderizar las cartas
     const int HEIGHT = 3; // Alto fijo para renderizar las cartas
-    const string colorsN[4] = {"Rojo", "Amarillo", "Azul", "Verde"}; // Colores (CODIGOS ANSI) para cartas normales
-    const string colorsF[4] = {"Rosa", "Naranja", "Turquesa", "Violeta"};// Colores (CODIGOS ANSI) para cartas flipped
+    const string COLORS_N[4] = {"Rojo", "Amarillo", "Azul", "Verde"}; // Colores (CODIGOS ANSI) para cartas normales
+    const string COLORS_F[4] = {"Rosa", "Naranja", "Turquesa", "Violeta"};// Colores (CODIGOS ANSI) para cartas flipped
     
     string simbolo[2]; // Simbolo que tendra la carta dependiendo si es normal o flipped
-    const int indexColor; // Índice para acceder a los colores en los arrays colorsN y colorsF
-    int indexColorFlip; // Índice para acceder a los colores en los arrays colorsN y colorsF cuando la carta está flipped
+    const int INDEX_COLOR; // Índice para acceder a los colores en los arrays COLORS_N y COLORS_F
+    int indexColorFlip; // Índice para acceder a los colores en los arrays COLORS_N y COLORS_F cuando la carta está flipped
     int HandIndex;
 
     string actualColor; // Color actual de la carta

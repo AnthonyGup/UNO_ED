@@ -1,6 +1,6 @@
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj: \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\wildcards\PlusFourWildcard.cpp \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\wildcards\PlusFourWildcard.h \
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.cpp \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\Card.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \

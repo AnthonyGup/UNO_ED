@@ -131,11 +131,101 @@ CMakeFiles/UNO.dir/src/cards/WildCard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/WildCard.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\WildCard.cpp" -o CMakeFiles\UNO.dir\src\cards\WildCard.cpp.s
 
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\cards\wildcards\BlockWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\cards\wildcards\BlockWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\BlockWildcard.cpp"
+
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\BlockWildcard.cpp" > CMakeFiles\UNO.dir\src\cards\wildcards\BlockWildcard.cpp.i
+
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\BlockWildcard.cpp" -o CMakeFiles\UNO.dir\src\cards\wildcards\BlockWildcard.cpp.s
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\cards\wildcards\ColorWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\cards\wildcards\ColorWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ColorWildcard.cpp"
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ColorWildcard.cpp" > CMakeFiles\UNO.dir\src\cards\wildcards\ColorWildcard.cpp.i
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ColorWildcard.cpp" -o CMakeFiles\UNO.dir\src\cards\wildcards\ColorWildcard.cpp.s
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\cards\wildcards\PlusFourWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\cards\wildcards\PlusFourWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusFourWildcard.cpp"
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusFourWildcard.cpp" > CMakeFiles\UNO.dir\src\cards\wildcards\PlusFourWildcard.cpp.i
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusFourWildcard.cpp" -o CMakeFiles\UNO.dir\src\cards\wildcards\PlusFourWildcard.cpp.s
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\cards\wildcards\PlusTwoWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\cards\wildcards\PlusTwoWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusTwoWildcard.cpp"
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusTwoWildcard.cpp" > CMakeFiles\UNO.dir\src\cards\wildcards\PlusTwoWildcard.cpp.i
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\PlusTwoWildcard.cpp" -o CMakeFiles\UNO.dir\src\cards\wildcards\PlusTwoWildcard.cpp.s
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\cards\wildcards\ReverseWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\cards\wildcards\ReverseWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.cpp"
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.cpp" > CMakeFiles\UNO.dir\src\cards\wildcards\ReverseWildcard.cpp.i
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.cpp" -o CMakeFiles\UNO.dir\src\cards\wildcards\ReverseWildcard.cpp.s
+
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: CMakeFiles/UNO.dir/flags.make
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/DeckMaker.cpp
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj -MF CMakeFiles\UNO.dir\src\engine\DeckMaker.cpp.obj.d -o CMakeFiles\UNO.dir\src\engine\DeckMaker.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\engine\DeckMaker.cpp"
+
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\engine\DeckMaker.cpp" > CMakeFiles\UNO.dir\src\engine\DeckMaker.cpp.i
+
+CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\engine\DeckMaker.cpp" -o CMakeFiles\UNO.dir\src\engine\DeckMaker.cpp.s
+
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.cpp
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj -MF CMakeFiles\UNO.dir\src\engine\UnoEngine.cpp.obj.d -o CMakeFiles\UNO.dir\src\engine\UnoEngine.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\engine\UnoEngine.cpp"
 
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.i: cmake_force
@@ -150,7 +240,7 @@ CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj: CMakeFiles/UNO.dir/flag
 CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/exceptions/ListException.cpp
 CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj -MF CMakeFiles\UNO.dir\src\exceptions\ListException.cpp.obj.d -o CMakeFiles\UNO.dir\src\exceptions\ListException.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\exceptions\ListException.cpp"
 
 CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.i: cmake_force
@@ -165,7 +255,7 @@ CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/CircularList.cpp
 CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj -MF CMakeFiles\UNO.dir\src\lists\CircularList.cpp.obj.d -o CMakeFiles\UNO.dir\src\lists\CircularList.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\lists\CircularList.cpp"
 
 CMakeFiles/UNO.dir/src/lists/CircularList.cpp.i: cmake_force
@@ -180,7 +270,7 @@ CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/LinkedList.cpp
 CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj -MF CMakeFiles\UNO.dir\src\lists\LinkedList.cpp.obj.d -o CMakeFiles\UNO.dir\src\lists\LinkedList.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\lists\LinkedList.cpp"
 
 CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.i: cmake_force
@@ -195,7 +285,7 @@ CMakeFiles/UNO.dir/src/lists/Node.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/lists/Node.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/lists/Node.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Node.cpp
 CMakeFiles/UNO.dir/src/lists/Node.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/UNO.dir/src/lists/Node.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UNO.dir/src/lists/Node.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/lists/Node.cpp.obj -MF CMakeFiles\UNO.dir\src\lists\Node.cpp.obj.d -o CMakeFiles\UNO.dir\src\lists\Node.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\lists\Node.cpp"
 
 CMakeFiles/UNO.dir/src/lists/Node.cpp.i: cmake_force
@@ -210,7 +300,7 @@ CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.cpp
 CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj -MF CMakeFiles\UNO.dir\src\lists\NodeC.cpp.obj.d -o CMakeFiles\UNO.dir\src\lists\NodeC.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\lists\NodeC.cpp"
 
 CMakeFiles/UNO.dir/src/lists/NodeC.cpp.i: cmake_force
@@ -225,7 +315,7 @@ CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Stack.cpp
 CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj -MF CMakeFiles\UNO.dir\src\lists\Stack.cpp.obj.d -o CMakeFiles\UNO.dir\src\lists\Stack.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\lists\Stack.cpp"
 
 CMakeFiles/UNO.dir/src/lists/Stack.cpp.i: cmake_force
@@ -240,7 +330,7 @@ CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: CMakeFiles/UNO.dir/flags.make
 CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
 CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/Menu.cpp
 CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj -MF CMakeFiles\UNO.dir\src\menus\Menu.cpp.obj.d -o CMakeFiles\UNO.dir\src\menus\Menu.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\menus\Menu.cpp"
 
 CMakeFiles/UNO.dir/src/menus/Menu.cpp.i: cmake_force
@@ -251,57 +341,18 @@ CMakeFiles/UNO.dir/src/menus/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/menus/Menu.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\menus\Menu.cpp" -o CMakeFiles\UNO.dir\src\menus\Menu.cpp.s
 
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/wildcards/ColorWildcard.cpp
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\wildcards\ColorWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\wildcards\ColorWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\ColorWildcard.cpp"
-
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\ColorWildcard.cpp" > CMakeFiles\UNO.dir\src\wildcards\ColorWildcard.cpp.i
-
-CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\ColorWildcard.cpp" -o CMakeFiles\UNO.dir\src\wildcards\ColorWildcard.cpp.s
-
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/wildcards/PlusFourWildcard.cpp
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\wildcards\PlusFourWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\wildcards\PlusFourWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusFourWildcard.cpp"
-
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusFourWildcard.cpp" > CMakeFiles\UNO.dir\src\wildcards\PlusFourWildcard.cpp.i
-
-CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusFourWildcard.cpp" -o CMakeFiles\UNO.dir\src\wildcards\PlusFourWildcard.cpp.s
-
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/flags.make
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/includes_CXX.rsp
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/wildcards/PlusTwoWildcard.cpp
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj: CMakeFiles/UNO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj -MF CMakeFiles\UNO.dir\src\wildcards\PlusTwoWildcard.cpp.obj.d -o CMakeFiles\UNO.dir\src\wildcards\PlusTwoWildcard.cpp.obj -c "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusTwoWildcard.cpp"
-
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusTwoWildcard.cpp" > CMakeFiles\UNO.dir\src\wildcards\PlusTwoWildcard.cpp.i
-
-CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\Game\src\wildcards\PlusTwoWildcard.cpp" -o CMakeFiles\UNO.dir\src\wildcards\PlusTwoWildcard.cpp.s
-
 # Object files for target UNO
 UNO_OBJECTS = \
 "CMakeFiles/UNO.dir/src/UNO.cpp.obj" \
 "CMakeFiles/UNO.dir/src/cards/Card.cpp.obj" \
 "CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.obj" \
 "CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj" \
+"CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj" \
 "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj" \
 "CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj" \
 "CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj" \
@@ -309,10 +360,7 @@ UNO_OBJECTS = \
 "CMakeFiles/UNO.dir/src/lists/Node.cpp.obj" \
 "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj" \
 "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj" \
-"CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj" \
-"CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj" \
-"CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj" \
-"CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj"
+"CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
 
 # External object files for target UNO
 UNO_EXTERNAL_OBJECTS =
@@ -321,6 +369,12 @@ UNO.exe: CMakeFiles/UNO.dir/src/UNO.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/cards/Card.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj
+UNO.exe: CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj
@@ -329,14 +383,11 @@ UNO.exe: CMakeFiles/UNO.dir/src/lists/Node.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj
-UNO.exe: CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj
-UNO.exe: CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj
-UNO.exe: CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj
 UNO.exe: CMakeFiles/UNO.dir/build.make
 UNO.exe: CMakeFiles/UNO.dir/linkLibs.rsp
 UNO.exe: CMakeFiles/UNO.dir/objects1.rsp
 UNO.exe: CMakeFiles/UNO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable UNO.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable UNO.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UNO.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

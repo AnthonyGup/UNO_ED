@@ -1,7 +1,10 @@
 #include "PlusTwoWildcard.h"
 
-PlusTwoWildcard::PlusTwoWildcard(string& symbol, bool hasFlip, int iColor) : WildCard(symbol, hasFlip, iColor), drawAmount(2) {
-    if(this->hasFlip) drawAmount = 1;
+PlusTwoWildcard::PlusTwoWildcard(bool hasFlip, int iColor) : WildCard(*(new string("+2")), hasFlip, iColor), drawAmount(2) {
+    if(this->hasFlip) {
+        this->drawAmount = 1;
+        this->setSimbolo(*(new string("+1")), 1);
+    }
 }
 
 PlusTwoWildcard::~PlusTwoWildcard() {}
@@ -15,12 +18,12 @@ void PlusTwoWildcard::changeFlip() {
     if (this->flipped) // Si actualmente esta flipped, se cambia a normal
     {
         this->drawAmount = 1;
-        this->actualColor = colorsN[this->indexColor];
+        this->actualColor = COLORS_N[this->INDEX_COLOR];
         return;
     }
     // si no esta flipped se cambia a flipped
     this->drawAmount = 2;
-    this->actualColor = colorsF[this->indexColorFlip];
+    this->actualColor = COLORS_F[this->indexColorFlip];
 }
 
 int PlusTwoWildcard::getDrawAmount() {

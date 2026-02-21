@@ -24,4 +24,9 @@ public:
     EmptyListException();
 };
 
+class FullListException : public ListException {
+public:
+    FullListException();
+};
+
 #endif

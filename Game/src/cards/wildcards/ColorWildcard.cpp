@@ -1,6 +1,8 @@
 #include "ColorWildcard.h"
 
-ColorWildcard::ColorWildcard(string& symbol, bool hasFlip, int iColor) : WildCard(symbol, hasFlip, iColor), colorIndex(iColor) {}
+ColorWildcard::ColorWildcard(bool hasFlip, int iColor) : WildCard(*(new string("©")), hasFlip, iColor), colorIndex(iColor) {
+    
+}
 
 ColorWildcard::~ColorWildcard() {}
 
@@ -14,4 +16,8 @@ void ColorWildcard::setColorIndex(int index) {
 
 int ColorWildcard::getColorIndex() {
     return this->colorIndex;
+}
+
+void ColorWildcard::changeFlip() {
+    
 }

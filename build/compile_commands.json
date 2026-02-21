@@ -25,6 +25,42 @@
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\BlockWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\BlockWildcard.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp",
+  "output": "CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ColorWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ColorWildcard.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp",
+  "output": "CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusFourWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusFourWildcard.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp",
+  "output": "CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusTwoWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusTwoWildcard.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp",
+  "output": "CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ReverseWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ReverseWildcard.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp",
+  "output": "CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\DeckMaker.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\DeckMaker.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/DeckMaker.cpp",
+  "output": "CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\UnoEngine.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\UnoEngine.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/UnoEngine.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
@@ -70,23 +106,5 @@
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\menus\\Menu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\menus\\Menu.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp",
   "output": "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
-},
-{
-  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\wildcards\\ColorWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\wildcards\\ColorWildcard.cpp\"",
-  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/ColorWildcard.cpp",
-  "output": "CMakeFiles/UNO.dir/src/wildcards/ColorWildcard.cpp.obj"
-},
-{
-  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\wildcards\\PlusFourWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\wildcards\\PlusFourWildcard.cpp\"",
-  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/PlusFourWildcard.cpp",
-  "output": "CMakeFiles/UNO.dir/src/wildcards/PlusFourWildcard.cpp.obj"
-},
-{
-  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\wildcards\\PlusTwoWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\wildcards\\PlusTwoWildcard.cpp\"",
-  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/wildcards/PlusTwoWildcard.cpp",
-  "output": "CMakeFiles/UNO.dir/src/wildcards/PlusTwoWildcard.cpp.obj"
 }
 ]

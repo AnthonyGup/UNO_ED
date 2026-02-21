@@ -1,58 +1,46 @@
 #include "Stack.h"
 #include "../exceptions/ListException.h"
 
-template <typename T>
-Stack<T>::Stack() : top(nullptr), size(0) {}
-
-template <typename T>
-Stack<T>::~Stack() {
-    clear();
+Stack::Stack(int size) : topIndex(-1), capacity(size) {
+    array = new Card*[capacity];
 }
 
-template <typename T>
-void Stack<T>::insert(T* value) {
-    Node<T>* newNode = new Node<T>(value);
-    newNode->setNext(top);
-    top = newNode;
-    size++;
+Stack::~Stack() {
+    delete[] array;
 }
 
-template <typename T>
-void Stack<T>::remove() {
+void Stack::insert(Card* value) {
+    if (topIndex == capacity - 1) {
+        throw FullListException();
+    }
+    
+    topIndex++;
+    array[topIndex] = value;
+}
+
+void Stack::remove() {
     if (isEmpty()) {
         throw EmptyListException();
     }
-
-    Node<T>* temp = top;
-    top = top->getNext();
-    delete temp;
-    size--;
+    
+    topIndex--;
 }
 
-template <typename T>
-T* Stack<T>::getTop() const {
+Card* Stack::getTop() const {
     if (isEmpty()) {
         throw EmptyListException();
     }
-    return top->getData();
+    return array[topIndex];
 }
 
-template <typename T>
-bool Stack<T>::isEmpty() const {
-    return size == 0;
+bool Stack::isEmpty() const {
+    return topIndex == -1;
 }
 
-template <typename T>
-int Stack<T>::getSize() const {
-    return size;
+int Stack::getSize() const {
+    return topIndex + 1;
 }
 
-template <typename T>
-void Stack<T>::clear() {
-    while (top != nullptr) {
-        Node<T>* temp = top;
-        top = top->getNext();
-        delete temp;
-    }
-    size = 0;
+void Stack::clear() {
+    topIndex = -1;
 }

@@ -1,8 +1,7 @@
 #ifndef PLUSTWO_WILDCARD_H
 #define PLUSTWO_WILDCARD_H
 
-#include "../cards/WildCard.h"
-#include "../engine/UnoEngine.h"
+#include "../WildCard.h"
 
 class PlusTwoWildcard : public WildCard {
 private:
@@ -10,7 +9,7 @@ private:
     int drawAmount; // Cantidad de cartas que el siguiente jugador debe robar (1 o 2 dependiendo del estado flip)
 
 public:
-    PlusTwoWildcard(string& symbol, bool hasFlip, int iColor);
+    PlusTwoWildcard(bool hasFlip, int iColor);
     ~PlusTwoWildcard() override;
     void applyEffect(UnoEngine& engine) override;
 
