@@ -1,24 +1,19 @@
 #include "BlockWildcard.h"
 
 BlockWildcard::BlockWildcard(bool hasFlip, int iColor) : WildCard(*(new string("Ø")), hasFlip, iColor) {
-    if (hasFlip) {
-        this->setSimbolo(*(new string("Ø")), 1);
-    }
+    this->setSimbolo(*(new string("Ø")), 0);
 }
 
-BlockWildcard::~BlockWildcard() {
-    // Destructor específico para BlockWildcard
-}
+BlockWildcard::~BlockWildcard() {}
 
 void BlockWildcard::applyEffect(UnoEngine& engine) {
     // Lógica para aplicar el efecto de la carta de bloqueo
     // Por ejemplo, podrías hacer que el siguiente jugador pierda su turno
-    //engine.skipNextPlayer();
+    //engine.skipPlayers(this->indexOfPlayers);
 }
 
 void BlockWildcard::changeFlip() {
-    // Lógica para cambiar el estado de flip de la carta de bloqueo
-    // Por ejemplo, podrías cambiar el símbolo y el color de la carta cuando se voltea
+
     if (this->isFlipped()) {
         this->setSimbolo(this->simbolo[0], this->INDEX_COLOR); // Volver al símbolo normal
         this->actualColor = this->COLORS_N[this->INDEX_COLOR]; // Volver al color normal

@@ -2,6 +2,7 @@
 #define PLUS_FOUR_WILDCARD_H
 
 #include "../WildCard.h"
+#include <random>
 class PlusFourWildcard : public WildCard {
     private:
         int drawAmount;
@@ -15,5 +16,6 @@ class PlusFourWildcard : public WildCard {
 
         void setDrawAmount(int amountIndex);
         int getDrawAmount();
+        int getColorIndex();
 };
 #endif 

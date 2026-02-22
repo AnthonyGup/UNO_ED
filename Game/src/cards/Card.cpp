@@ -8,6 +8,10 @@ Card::Card(string& symbol, bool hasFlip, int iColor) : INDEX_COLOR(iColor) {
 
 Card::~Card() {}
 
+int Card::getColorIndex() {
+    return this->INDEX_COLOR;
+}
+
 string Card::center(string& text) {
     string t = text;
     if (t.length() > 2) {
@@ -26,6 +30,12 @@ void Card::setSimbolo(string& sim, int index) {
 }
 
 string Card::renderLine(int index, string& valor) {
+    if (this->isFlipped()) {
+        this->actualColor = COLORS_F[this->getColorIndex()];
+    } else {
+        this->actualColor = COLORS_N[this->getColorIndex()];
+    }
+    
     if (index == 0) {
         return this->actualColor + "┌────┐" + this->RESET;
     }

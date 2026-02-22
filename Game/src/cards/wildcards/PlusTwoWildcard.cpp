@@ -1,9 +1,11 @@
 #include "PlusTwoWildcard.h"
 
 PlusTwoWildcard::PlusTwoWildcard(bool hasFlip, int iColor) : WildCard(*(new string("+2")), hasFlip, iColor), drawAmount(2) {
+    drawAmount = 2;
+    this->setSimbolo(*(new string("+2")), 0);
     if(this->hasFlip) {
         this->drawAmount = 1;
-        this->setSimbolo(*(new string("+1")), 1);
+        this->setSimbolo(*(new string("+1")), 0);
     }
 }
 

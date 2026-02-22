@@ -5,6 +5,8 @@
 
 using UnoEngine = class UnoEngine; // Declaración anticipada para evitar dependencias circulares
 class WildCard : public Card {
+protected:
+
 public:
     WildCard(string& symbol, bool hasFlip, int iColor);
     ~WildCard() override;

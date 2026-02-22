@@ -1,6 +1,7 @@
 #ifndef COLORWILDCARD_H
 #define COLORWILDCARD_H
 
+#include <random>
 #include "../WildCard.h"
 
 class ColorWildcard : public WildCard {
@@ -8,6 +9,7 @@ class ColorWildcard : public WildCard {
     private:
     int colorIndex; // Índice del color seleccionado por el jugador (0-3)
 
+    int getColorIndex() override; // Implementación del método para obtener el índice del color seleccionado por el jugador
     public:
         ColorWildcard(bool hasFlip, int iColor);
         ~ColorWildcard() override;
@@ -16,7 +18,6 @@ class ColorWildcard : public WildCard {
         void changeFlip() override; // Implementación del método para cambiar el estado de flip de la carta
 
         void setColorIndex(int index);
-        int getColorIndex();
 };
 
 

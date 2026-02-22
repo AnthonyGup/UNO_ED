@@ -485,6 +485,7 @@ CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/One
   c:/mingw/include/errno.h \
   c:/mingw/include/io.h \
   c:/mingw/include/locale.h \
+  c:/mingw/include/math.h \
   c:/mingw/include/msvcrtver.h \
   c:/mingw/include/process.h \
   c:/mingw/include/sdkddkver.h \
@@ -521,17 +522,27 @@ CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/One
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
@@ -547,6 +558,7 @@ CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/One
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
@@ -554,10 +566,14 @@ CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/One
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
@@ -870,14 +886,23 @@ CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
@@ -897,6 +922,7 @@ CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
@@ -904,10 +930,14 @@ CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
@@ -1707,6 +1737,8 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h:
@@ -1825,6 +1857,36 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.h:
 
+c:/mingw/include/math.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector:
+
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.h:
@@ -1838,10 +1900,6 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/DeckMaker.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/DeckMaker.h:
-
-c:/mingw/include/math.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath:
 
 c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h:
 

@@ -13,7 +13,7 @@ protected:
     const string COLORS_F[4] = {"Rosa", "Naranja", "Turquesa", "Violeta"};// Colores (CODIGOS ANSI) para cartas flipped
     
     string simbolo[2]; // Simbolo que tendra la carta dependiendo si es normal o flipped
-    const int INDEX_COLOR; // Índice para acceder a los colores en los arrays COLORS_N y COLORS_F
+    const int INDEX_COLOR; 
     int indexColorFlip; // Índice para acceder a los colores en los arrays COLORS_N y COLORS_F cuando la carta está flipped
     int HandIndex;
 
@@ -36,6 +36,7 @@ protected:
      */
     virtual void changeFlip() = 0;
     
+    virtual int getColorIndex();
 public:
 
     Card(string& symbol, bool hasFlip, int iColor);
