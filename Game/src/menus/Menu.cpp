@@ -168,6 +168,16 @@ void Menu::pedirConfiguracion()
     mostrarLinea(40);
 }
 
+void Menu::pedirCantidadJugadores()
+{
+    limpiarPantalla();
+    mostrarLinea(40);
+    cout << "CANTIDAD DE JUGADORES" << endl;
+    mostrarLinea(40);
+    cout << "Ingresa un valor entre minimo 2" << endl;
+    mostrarLinea(40);
+}
+
 void Menu::mostrarConfiguracion()
 {
     limpiarPantalla();

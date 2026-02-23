@@ -11,6 +11,7 @@ private:
 public:
     Node(Card* value);
     Card* getData();
+    void setData(Card* value);
     void setNext(Node* nextNode);
     void setPrev(Node* prevNode);
     Node* getNext();

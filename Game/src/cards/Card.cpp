@@ -70,6 +70,14 @@ int Card::getHandIndex() {
     return this->HandIndex;
 }
 
+int Card::getSortColorIndex() {
+    return this->getColorIndex();
+}
+
+string Card::getSortSymbol() {
+    return this->simbolo[0];
+}
+
 void Card::flip() {
     if (this->hasFlip)
 	{

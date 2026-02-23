@@ -65,6 +65,9 @@ public:
      */
     void setHandIndex(int newIndex);
     int getHandIndex();
+
+    int getSortColorIndex();
+    string getSortSymbol();
 };
 
 #endif

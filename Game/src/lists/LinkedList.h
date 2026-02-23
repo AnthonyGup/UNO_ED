@@ -9,6 +9,16 @@ private:
     Node* head;
     int size;
 
+    bool isOnlyDigits(string text);
+    int toNumber(string text);
+    bool isColorlessOrNumberless(Card* card);
+
+    void swapNodeData(Node* a, Node* b);
+    bool shouldGoBeforeOrEqual(Card* left, Card* right);
+    Node* partition(Node* low, Node* high);
+    void quickSortRec(Node* low, Node* high);
+    Node* getTail(Node* node);
+
 public:
     LinkedList();
     ~LinkedList();
@@ -21,6 +31,7 @@ public:
     bool isEmpty();
     int getSize();
     void clear();
+    void sortCardsQuickSort();
 };
 
 #endif

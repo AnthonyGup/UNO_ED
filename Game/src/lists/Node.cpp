@@ -11,6 +11,10 @@ Card* Node::getData() {
     return data;
 }
 
+void Node::setData(Card* value) {
+    this->data = value;
+}
+
 Node* Node::getNext() {
     return next;
 }

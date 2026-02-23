@@ -345,30 +345,6 @@ src/cards/wildcards/ReverseWildcard.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.s
 .PHONY : src/cards/wildcards/ReverseWildcard.cpp.s
 
-src/engine/DeckMaker.obj: src/engine/DeckMaker.cpp.obj
-.PHONY : src/engine/DeckMaker.obj
-
-# target to build an object file
-src/engine/DeckMaker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.obj
-.PHONY : src/engine/DeckMaker.cpp.obj
-
-src/engine/DeckMaker.i: src/engine/DeckMaker.cpp.i
-.PHONY : src/engine/DeckMaker.i
-
-# target to preprocess a source file
-src/engine/DeckMaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.i
-.PHONY : src/engine/DeckMaker.cpp.i
-
-src/engine/DeckMaker.s: src/engine/DeckMaker.cpp.s
-.PHONY : src/engine/DeckMaker.s
-
-# target to generate assembly for a file
-src/engine/DeckMaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.s
-.PHONY : src/engine/DeckMaker.cpp.s
-
 src/engine/Game.obj: src/engine/Game.cpp.obj
 .PHONY : src/engine/Game.obj
 
@@ -393,6 +369,54 @@ src/engine/Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Game.cpp.s
 .PHONY : src/engine/Game.cpp.s
 
+src/engine/Player.obj: src/engine/Player.cpp.obj
+.PHONY : src/engine/Player.obj
+
+# target to build an object file
+src/engine/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Player.cpp.obj
+.PHONY : src/engine/Player.cpp.obj
+
+src/engine/Player.i: src/engine/Player.cpp.i
+.PHONY : src/engine/Player.i
+
+# target to preprocess a source file
+src/engine/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Player.cpp.i
+.PHONY : src/engine/Player.cpp.i
+
+src/engine/Player.s: src/engine/Player.cpp.s
+.PHONY : src/engine/Player.s
+
+# target to generate assembly for a file
+src/engine/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Player.cpp.s
+.PHONY : src/engine/Player.cpp.s
+
+src/engine/Turn.obj: src/engine/Turn.cpp.obj
+.PHONY : src/engine/Turn.obj
+
+# target to build an object file
+src/engine/Turn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Turn.cpp.obj
+.PHONY : src/engine/Turn.cpp.obj
+
+src/engine/Turn.i: src/engine/Turn.cpp.i
+.PHONY : src/engine/Turn.i
+
+# target to preprocess a source file
+src/engine/Turn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Turn.cpp.i
+.PHONY : src/engine/Turn.cpp.i
+
+src/engine/Turn.s: src/engine/Turn.cpp.s
+.PHONY : src/engine/Turn.s
+
+# target to generate assembly for a file
+src/engine/Turn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Turn.cpp.s
+.PHONY : src/engine/Turn.cpp.s
+
 src/engine/UnoEngine.obj: src/engine/UnoEngine.cpp.obj
 .PHONY : src/engine/UnoEngine.obj
 
@@ -416,6 +440,54 @@ src/engine/UnoEngine.s: src/engine/UnoEngine.cpp.s
 src/engine/UnoEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.s
 .PHONY : src/engine/UnoEngine.cpp.s
+
+src/engine/makers/DeckMaker.obj: src/engine/makers/DeckMaker.cpp.obj
+.PHONY : src/engine/makers/DeckMaker.obj
+
+# target to build an object file
+src/engine/makers/DeckMaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.obj
+.PHONY : src/engine/makers/DeckMaker.cpp.obj
+
+src/engine/makers/DeckMaker.i: src/engine/makers/DeckMaker.cpp.i
+.PHONY : src/engine/makers/DeckMaker.i
+
+# target to preprocess a source file
+src/engine/makers/DeckMaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.i
+.PHONY : src/engine/makers/DeckMaker.cpp.i
+
+src/engine/makers/DeckMaker.s: src/engine/makers/DeckMaker.cpp.s
+.PHONY : src/engine/makers/DeckMaker.s
+
+# target to generate assembly for a file
+src/engine/makers/DeckMaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.s
+.PHONY : src/engine/makers/DeckMaker.cpp.s
+
+src/engine/makers/TurnMaker.obj: src/engine/makers/TurnMaker.cpp.obj
+.PHONY : src/engine/makers/TurnMaker.obj
+
+# target to build an object file
+src/engine/makers/TurnMaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj
+.PHONY : src/engine/makers/TurnMaker.cpp.obj
+
+src/engine/makers/TurnMaker.i: src/engine/makers/TurnMaker.cpp.i
+.PHONY : src/engine/makers/TurnMaker.i
+
+# target to preprocess a source file
+src/engine/makers/TurnMaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.i
+.PHONY : src/engine/makers/TurnMaker.cpp.i
+
+src/engine/makers/TurnMaker.s: src/engine/makers/TurnMaker.cpp.s
+.PHONY : src/engine/makers/TurnMaker.s
+
+# target to generate assembly for a file
+src/engine/makers/TurnMaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.s
+.PHONY : src/engine/makers/TurnMaker.cpp.s
 
 src/engine/settings/Setting.obj: src/engine/settings/Setting.cpp.obj
 .PHONY : src/engine/settings/Setting.obj
@@ -669,15 +741,24 @@ help:
 	@echo ... src/cards/wildcards/ReverseWildcard.obj
 	@echo ... src/cards/wildcards/ReverseWildcard.i
 	@echo ... src/cards/wildcards/ReverseWildcard.s
-	@echo ... src/engine/DeckMaker.obj
-	@echo ... src/engine/DeckMaker.i
-	@echo ... src/engine/DeckMaker.s
 	@echo ... src/engine/Game.obj
 	@echo ... src/engine/Game.i
 	@echo ... src/engine/Game.s
+	@echo ... src/engine/Player.obj
+	@echo ... src/engine/Player.i
+	@echo ... src/engine/Player.s
+	@echo ... src/engine/Turn.obj
+	@echo ... src/engine/Turn.i
+	@echo ... src/engine/Turn.s
 	@echo ... src/engine/UnoEngine.obj
 	@echo ... src/engine/UnoEngine.i
 	@echo ... src/engine/UnoEngine.s
+	@echo ... src/engine/makers/DeckMaker.obj
+	@echo ... src/engine/makers/DeckMaker.i
+	@echo ... src/engine/makers/DeckMaker.s
+	@echo ... src/engine/makers/TurnMaker.obj
+	@echo ... src/engine/makers/TurnMaker.i
+	@echo ... src/engine/makers/TurnMaker.s
 	@echo ... src/engine/settings/Setting.obj
 	@echo ... src/engine/settings/Setting.i
 	@echo ... src/engine/settings/Setting.s

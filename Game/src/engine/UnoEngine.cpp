@@ -1,16 +1,26 @@
 #include "UnoEngine.h"
 
-UnoEngine::UnoEngine() : juegoEnCurso(false) {
+UnoEngine::UnoEngine() : juegoEnCurso(false), cantidadJugadores(2) {
     inicializarJuego();
 }
 
 UnoEngine::~UnoEngine() {}
 
 void UnoEngine::inicializarJuego() {
-    // Aquí iría la lógica de inicialización del juego
+    bool hasFlip = false;
+    DeckMaker* deckMaker = new DeckMaker(cantidadJugadores);
+    deckMaker->generateDeck(hasFlip);
+    deckMaker->shuffleDeck();
+    this->deck = deckMaker->getDeckStack();
+
+    TurnMaker* turnMaker = new TurnMaker(&cantidadJugadores, deck);
+    turnMaker->generateTurns();
+    this->turns = turnMaker->getTurns();
+
+    
 }
 
-void UnoEngine::manejarInicioJuego() {
+void UnoEngine::manejarInicio() {
     try {
         menu.pedirConfiguracion();
         int opcionConfiguracion = menu.obtenerOpcion(1, 2);
@@ -18,9 +28,11 @@ void UnoEngine::manejarInicioJuego() {
         switch (opcionConfiguracion) {
             case 1:
                 cout << "Iniciando juego con configuracion predeterminada..." << endl;
+                solicitarJugadores();
                 break;
             case 2:
-                manejarConfiguracionPersonalizada();
+                configurarPerzonalizada();
+                solicitarJugadores();
                 break;
             default:
                 cout << "Opción no válida" << endl;
@@ -31,7 +43,18 @@ void UnoEngine::manejarInicioJuego() {
     }
 }
 
-void UnoEngine::manejarConfiguracionPersonalizada() {
+void UnoEngine::solicitarJugadores() {
+    try {
+        menu.pedirCantidadJugadores();
+        cantidadJugadores = menu.obtenerOpcion(2, 1000000000000);
+        cout << "Cantidad de jugadores seleccionada: " << cantidadJugadores << endl;
+    } catch (const InputException&) {
+        cout << "Error al leer la cantidad de jugadores. Se usará 2 por defecto." << endl;
+        cantidadJugadores = 2;
+    }
+}
+
+void UnoEngine::configurarPerzonalizada() {
     bool salir = false;
 
     while (!salir) {
@@ -205,7 +228,7 @@ void UnoEngine::ejecutar() {
 
             switch(opcion) {
                 case 1:
-                    manejarInicioJuego();
+                    manejarInicio();
                     break;
                     
                 case 2:

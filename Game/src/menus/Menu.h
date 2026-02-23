@@ -46,6 +46,11 @@ public:
     void pedirConfiguracion();
 
     /**
+     * Muestra el menú para elegir la cantidad de jugadores.
+     */
+    void pedirCantidadJugadores();
+
+    /**
      * Muestra las configuraciones y lo que puede cambiar
      */
     void mostrarConfiguracion();

@@ -23,7 +23,7 @@ class Game {
         CircularList* turns = nullptr;
 
     public:
-        Game();
+        Game(Stack *deck, CircularList *turns);
         ~Game();
 
         void start();

@@ -14,11 +14,14 @@ public:
     ~Stack();
     
     void insert(Card* value);
+    void shuffle();
     void remove();
+    Card* pop();
     Card* getTop() const;
     bool isEmpty() const;
     int getSize() const;
     void clear();
+    void clearAndDeleteCards();
 };
 
 #endif
