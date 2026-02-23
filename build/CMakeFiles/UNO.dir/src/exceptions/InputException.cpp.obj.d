@@ -1,24 +1,27 @@
-CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj: \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\WildCard.cpp \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\WildCard.h \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\Card.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
+CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.obj: \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\exceptions\InputException.cpp \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\exceptions\InputException.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\exception \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\concept_check.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\type_traits \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\debug\assertions.h \
@@ -46,10 +49,6 @@ CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\new \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\exception \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\nested_exception.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\localefwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++locale.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\clocale \
@@ -80,8 +79,6 @@ CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\unoengine.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\menus\menu.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
@@ -103,9 +100,4 @@ CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\exceptions\inputexception.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\settings\setting.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\exceptions\inputexception.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\settings/Setting.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc

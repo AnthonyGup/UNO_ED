@@ -11,7 +11,7 @@ PlusFourWildcard::PlusFourWildcard(bool hasFlip, int iColor) : WildCard(*(new st
 
 PlusFourWildcard::~PlusFourWildcard() {}
 
-void PlusFourWildcard::applyEffect(UnoEngine& engine) {
+void PlusFourWildcard::applyEffect(Game& engine) {
     //engine.plus(this->getDrawAmount());
     
     //engine.changeColor(engine.selectColor());

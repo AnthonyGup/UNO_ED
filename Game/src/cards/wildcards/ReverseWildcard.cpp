@@ -7,7 +7,7 @@ ReverseWildcard::ReverseWildcard(bool hasFlip, int iColor) : WildCard(*(new stri
 
 ReverseWildcard::~ReverseWildcard() {}
 
-void ReverseWildcard::applyEffect(UnoEngine& engine) {
+void ReverseWildcard::applyEffect(Game& engine) {
     //engine.reverseDirection();
 }
 

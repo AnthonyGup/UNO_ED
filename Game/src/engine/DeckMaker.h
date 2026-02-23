@@ -3,10 +3,12 @@
 
 #include <string>
 #include <cmath>
+#include <cstdlib>
+#include <ctime>
 #include "../lists/Stack.h"
 #include "../cards/Card.h"
 #include "../cards/NormalCard.h"
-#include "../cards/Wildcard.h"
+#include "../cards/WildCard.h"
 #include "../cards/wildcards/BlockWildcard.h"
 #include "../cards/wildcards/ColorWildcard.h"
 #include "../cards/wildcards/ReverseWildcard.h"
@@ -18,19 +20,25 @@
             const int CARDS_AMOUNT = 108;
             int deckSize;
             int players;
-            
-            Stack* deck;
+
+            Card** deck;
+            Stack* deckStack;
 
             int calculateDeckSize(int players);
-            void createNormalCards(bool& hasFlip);
-            void createWildcards(bool& hasFlip);
+            void addCard(Card* card, int& insertionIndex);
+            void createNormalCards(bool& hasFlip, int& insertionIndex);
+            void createWildcards(bool& hasFlip, int& insertionIndex);
         public:
             DeckMaker(int players);
             ~DeckMaker();
 
-            void generateDeck();
+            void generateDeck(bool& hasFlip);
 
             void shuffleDeck();
+
+            Card** getDeck() const;
+            Stack* getDeckStack() const;
+            int getDeckSize() const;
     };
 
 #endif

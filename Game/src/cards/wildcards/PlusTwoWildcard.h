@@ -11,7 +11,7 @@ private:
 public:
     PlusTwoWildcard(bool hasFlip, int iColor);
     ~PlusTwoWildcard() override;
-    void applyEffect(UnoEngine& engine) override;
+    void applyEffect(Game& engine) override;
 
     void changeFlip() override;
 

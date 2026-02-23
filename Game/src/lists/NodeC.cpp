@@ -1,48 +1,37 @@
 #include "NodeC.h"
 
-template <typename T>
-NodeC<T>::NodeC(T* value) : data(value), next(nullptr), prev(nullptr) {}
+NodeC::NodeC(Turn* value) : data(value), next(nullptr), prev(nullptr) {}
 
-template <typename T>
-NodeC<T>::~NodeC() {
+NodeC::~NodeC() {
     // El data es responsabilidad del usuario
 }
 
-template <typename T>
-T* NodeC<T>::getData() const {
+Turn* NodeC::getData() const {
     return data;
 }
 
-template <typename T>
-NodeC<T>* NodeC<T>::getNext(bool reversed) const {
-    // Si reversed es true, entendemos la dirección al revés
-    // next devuelve prev y prev devuelve next
+NodeC* NodeC::getNext(bool reversed) const {
     if (reversed) {
         return prev;
     }
     return next;
 }
 
-template <typename T>
-NodeC<T>* NodeC<T>::getPrev(bool reversed) const {
-    // Si reversed es true, entendemos la dirección al revés
+NodeC* NodeC::getPrev(bool reversed) const {
     if (reversed) {
         return next;
     }
     return prev;
 }
 
-template <typename T>
-void NodeC<T>::setData(T* value) {
+void NodeC::setData(Turn* value) {
     data = value;
 }
 
-template <typename T>
-void NodeC<T>::setNext(NodeC<T>* node) {
+void NodeC::setNext(NodeC* node) {
     next = node;
 }
 
-template <typename T>
-void NodeC<T>::setPrev(NodeC<T>* node) {
+void NodeC::setPrev(NodeC* node) {
     prev = node;
 }

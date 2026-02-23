@@ -8,7 +8,7 @@ class BlockWildcard : public WildCard {
     BlockWildcard(bool hasFlip, int iColor);
     ~BlockWildcard() override;
 
-    void applyEffect(UnoEngine& engine) override; // Implementación del método para aplicar el efecto de la carta
+    void applyEffect(Game& engine) override; // Implementación del método para aplicar el efecto de la carta
 
     void changeFlip() override; // Implementación del método para cambiar el estado de flip de la carta
     

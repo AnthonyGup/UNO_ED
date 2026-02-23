@@ -1,4 +1,35 @@
 {
+	"globsDependent" : 
+	[
+		{
+			"expression" : "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/*.cpp",
+			"paths" : 
+			[
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/UNO.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/Card.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/NormalCard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/WildCard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/DeckMaker.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/Game.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/UnoEngine.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/settings/Setting.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/InputException.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/ListException.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/CircularList.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/LinkedList.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Node.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/NodeC.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Stack.cpp",
+				"C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp"
+			],
+			"recurse" : true
+		}
+	],
 	"inputs" : 
 	[
 		{

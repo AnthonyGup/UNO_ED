@@ -1,34 +1,28 @@
 #include "Node.h"
 
-template <typename T>
-Node<T>::Node(T* value)
+Node::Node(Card* value)
 {
     this->data = value;
     this->next = nullptr;
     this->prev = nullptr;
 }
 
-template <typename T>
-T* Node<T>::getData() {
+Card* Node::getData() {
     return data;
 }
 
-template <typename T>
-Node<T>* Node<T>::getNext() {
+Node* Node::getNext() {
     return next;
 }
 
-template <typename T>
-Node<T>* Node<T>::getPrev() {
+Node* Node::getPrev() {
     return prev;
 }
 
-template <typename T>
-void Node<T>::setNext(Node<T>* nextNode) {
+void Node::setNext(Node* nextNode) {
     this->next = nextNode;
 }
 
-template <typename T>
-void Node<T>::setPrev(Node<T>* prevNode) {
+void Node::setPrev(Node* prevNode) {
     this->prev = prevNode;
 }

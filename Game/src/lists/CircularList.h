@@ -3,33 +3,33 @@
 
 #include "NodeC.h"
 
-template <typename T>
+class Turn; // Forward declaration
+
 class CircularList {
 private:
-    NodeC<T>* head;
-    NodeC<T>* tail;
+    NodeC* head;
+    NodeC* tail;
     int size;
-    bool reversed;  // true = dirección inversa, false = dirección normal
+    bool reversed;
 
 public:
     CircularList();
     ~CircularList();
-    
-    void insertFirst(T* value);
-    void insertLast(T* value);
-    void insertAt(int index, T* value);
+
+    void insertFirst(Turn* value);
+    void insertLast(Turn* value);
+    void insertAt(int index, Turn* value);
     void deleteFirst();
     void deleteLast();
     bool deleteAt(int index);
-    NodeC<T>* getTail();
-    NodeC<T>* getAt(int index);
-    NodeC<T>* getNext(NodeC<T>* node);
-    NodeC<T>* getPrev(NodeC<T>* node);
+    NodeC* getTail();
+    NodeC* getAt(int index);
+    NodeC* getNext(NodeC* node);
+    NodeC* getPrev(NodeC* node);
     int getSize();
     bool isEmpty();
     void clear();
-    
-    // Métodos para controlar dirección
+
     void changeDirection();
     bool isReversed() const;
     void setDirection(bool rev);

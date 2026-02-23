@@ -1,27 +1,26 @@
 #ifndef NODEC_H
 #define NODEC_H
 
-template <typename T>
+class Turn; // Forward declaration
+
 class NodeC {
 private:
-    T* data;
-    NodeC<T>* next;
-    NodeC<T>* prev;
+    Turn* data;
+    NodeC* next;
+    NodeC* prev;
 
 public:
-    NodeC(T* value);
+    NodeC(Turn* value);
     ~NodeC();
-    
-    T* getData() const;
-    
-    // Métodos que consideran la dirección
-    NodeC<T>* getNext(bool reversed = false) const;
-    NodeC<T>* getPrev(bool reversed = false) const;
-    
-    // Métodos de configuración
-    void setData(T* value);
-    void setNext(NodeC<T>* node);
-    void setPrev(NodeC<T>* node);
+
+    Turn* getData() const;
+
+    NodeC* getNext(bool reversed = false) const;
+    NodeC* getPrev(bool reversed = false) const;
+
+    void setData(Turn* value);
+    void setNext(NodeC* node);
+    void setPrev(NodeC* node);
 };
 
 #endif

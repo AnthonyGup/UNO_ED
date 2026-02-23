@@ -11,7 +11,7 @@ PlusTwoWildcard::PlusTwoWildcard(bool hasFlip, int iColor) : WildCard(*(new stri
 
 PlusTwoWildcard::~PlusTwoWildcard() {}
 
-void PlusTwoWildcard::applyEffect(UnoEngine& engine) {
+void PlusTwoWildcard::applyEffect(Game& engine) {
     //engine.plus(this->getDrawAmount());
 
 }

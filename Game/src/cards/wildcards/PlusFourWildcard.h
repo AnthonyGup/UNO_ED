@@ -10,7 +10,7 @@ class PlusFourWildcard : public WildCard {
     public:
         PlusFourWildcard(bool hasFlip, int iColor);
         ~PlusFourWildcard() override;
-        void applyEffect(UnoEngine& engine) override; // Implementación del efecto específico para esta carta
+        void applyEffect(Game& engine) override; // Implementación del efecto específico para esta carta
 
         void changeFlip() override; 
 

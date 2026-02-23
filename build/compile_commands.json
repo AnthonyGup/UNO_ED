@@ -61,9 +61,27 @@
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\Game.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Game.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/Game.cpp",
+  "output": "CMakeFiles/UNO.dir/src/engine/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
   "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\UnoEngine.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\UnoEngine.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/UnoEngine.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\settings\\Setting.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\settings\\Setting.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/settings/Setting.cpp",
+  "output": "CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.obj"
+},
+{
+  "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\exceptions\\InputException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\InputException.cpp\"",
+  "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/InputException.cpp",
+  "output": "CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",

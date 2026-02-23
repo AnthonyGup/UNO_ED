@@ -6,7 +6,7 @@ ColorWildcard::ColorWildcard(bool hasFlip, int iColor) : WildCard(*(new string("
 
 ColorWildcard::~ColorWildcard() {}
 
-void ColorWildcard::applyEffect(UnoEngine& engine) {
+void ColorWildcard::applyEffect(Game& engine) {
     // engine.changeColor(colorIndex); // Llama al método del motor del juego para cambiar el color actual a colorIndex4
 }
 

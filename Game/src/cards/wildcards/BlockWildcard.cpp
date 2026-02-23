@@ -6,7 +6,7 @@ BlockWildcard::BlockWildcard(bool hasFlip, int iColor) : WildCard(*(new string("
 
 BlockWildcard::~BlockWildcard() {}
 
-void BlockWildcard::applyEffect(UnoEngine& engine) {
+void BlockWildcard::applyEffect(Game& engine) {
     // Lógica para aplicar el efecto de la carta de bloqueo
     // Por ejemplo, podrías hacer que el siguiente jugador pierda su turno
     //engine.skipPlayers(this->indexOfPlayers);

@@ -9,7 +9,7 @@ class ReverseWildcard : public WildCard {
     ReverseWildcard(bool hasFlip, int iColor);
     ~ReverseWildcard() override;
 
-    void applyEffect(UnoEngine& engine) override; // Implementación del método para aplicar el efecto de la carta Reverse Wildcard
+    void applyEffect(Game& engine) override; // Implementación del método para aplicar el efecto de la carta Reverse Wildcard
     void changeFlip() override; // Implementación del método para cambiar el estado de flip de la carta Reverse Wildcard
 };
 

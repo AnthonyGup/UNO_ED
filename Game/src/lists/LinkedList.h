@@ -2,22 +2,22 @@
 #define LINKEDLIST_H
 
 #include "Node.h"
+#include "../cards/Card.h"
 
-template <typename T>
 class LinkedList {
 private:
-    Node<T>* head;
+    Node* head;
     int size;
 
 public:
     LinkedList();
     ~LinkedList();
 
-    bool insertFirst(T* value);
-    void insert(T* value);
-    bool insertAt(int index, T* value);
+    bool insertFirst(Card* value);
+    void insert(Card* value);
+    bool insertAt(int index, Card* value);
     bool deleteAt(int index);
-    T* getAt(int index);
+    Card* getAt(int index);
     bool isEmpty();
     int getSize();
     void clear();

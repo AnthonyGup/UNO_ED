@@ -112,6 +112,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -368,6 +369,30 @@ src/engine/DeckMaker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/DeckMaker.cpp.s
 .PHONY : src/engine/DeckMaker.cpp.s
 
+src/engine/Game.obj: src/engine/Game.cpp.obj
+.PHONY : src/engine/Game.obj
+
+# target to build an object file
+src/engine/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Game.cpp.obj
+.PHONY : src/engine/Game.cpp.obj
+
+src/engine/Game.i: src/engine/Game.cpp.i
+.PHONY : src/engine/Game.i
+
+# target to preprocess a source file
+src/engine/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Game.cpp.i
+.PHONY : src/engine/Game.cpp.i
+
+src/engine/Game.s: src/engine/Game.cpp.s
+.PHONY : src/engine/Game.s
+
+# target to generate assembly for a file
+src/engine/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/Game.cpp.s
+.PHONY : src/engine/Game.cpp.s
+
 src/engine/UnoEngine.obj: src/engine/UnoEngine.cpp.obj
 .PHONY : src/engine/UnoEngine.obj
 
@@ -391,6 +416,54 @@ src/engine/UnoEngine.s: src/engine/UnoEngine.cpp.s
 src/engine/UnoEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.s
 .PHONY : src/engine/UnoEngine.cpp.s
+
+src/engine/settings/Setting.obj: src/engine/settings/Setting.cpp.obj
+.PHONY : src/engine/settings/Setting.obj
+
+# target to build an object file
+src/engine/settings/Setting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.obj
+.PHONY : src/engine/settings/Setting.cpp.obj
+
+src/engine/settings/Setting.i: src/engine/settings/Setting.cpp.i
+.PHONY : src/engine/settings/Setting.i
+
+# target to preprocess a source file
+src/engine/settings/Setting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.i
+.PHONY : src/engine/settings/Setting.cpp.i
+
+src/engine/settings/Setting.s: src/engine/settings/Setting.cpp.s
+.PHONY : src/engine/settings/Setting.s
+
+# target to generate assembly for a file
+src/engine/settings/Setting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.s
+.PHONY : src/engine/settings/Setting.cpp.s
+
+src/exceptions/InputException.obj: src/exceptions/InputException.cpp.obj
+.PHONY : src/exceptions/InputException.obj
+
+# target to build an object file
+src/exceptions/InputException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.obj
+.PHONY : src/exceptions/InputException.cpp.obj
+
+src/exceptions/InputException.i: src/exceptions/InputException.cpp.i
+.PHONY : src/exceptions/InputException.i
+
+# target to preprocess a source file
+src/exceptions/InputException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.i
+.PHONY : src/exceptions/InputException.cpp.i
+
+src/exceptions/InputException.s: src/exceptions/InputException.cpp.s
+.PHONY : src/exceptions/InputException.s
+
+# target to generate assembly for a file
+src/exceptions/InputException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.s
+.PHONY : src/exceptions/InputException.cpp.s
 
 src/exceptions/ListException.obj: src/exceptions/ListException.cpp.obj
 .PHONY : src/exceptions/ListException.obj
@@ -599,9 +672,18 @@ help:
 	@echo ... src/engine/DeckMaker.obj
 	@echo ... src/engine/DeckMaker.i
 	@echo ... src/engine/DeckMaker.s
+	@echo ... src/engine/Game.obj
+	@echo ... src/engine/Game.i
+	@echo ... src/engine/Game.s
 	@echo ... src/engine/UnoEngine.obj
 	@echo ... src/engine/UnoEngine.i
 	@echo ... src/engine/UnoEngine.s
+	@echo ... src/engine/settings/Setting.obj
+	@echo ... src/engine/settings/Setting.i
+	@echo ... src/engine/settings/Setting.s
+	@echo ... src/exceptions/InputException.obj
+	@echo ... src/exceptions/InputException.i
+	@echo ... src/exceptions/InputException.s
 	@echo ... src/exceptions/ListException.obj
 	@echo ... src/exceptions/ListException.i
 	@echo ... src/exceptions/ListException.s
@@ -634,6 +716,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P "C:\Users\antho\OneDrive\Escritorio\Universidad\5to semestre\Estructura de datos\UNO_ED\build\CMakeFiles\VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
