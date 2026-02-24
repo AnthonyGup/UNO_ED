@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/UNO.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++1z
+CXX_FLAGS = -g -std=c++1z -Wall -Wextra -Wpedantic
 

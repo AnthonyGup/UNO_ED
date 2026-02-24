@@ -1,151 +1,151 @@
 [
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\UNO.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\UNO.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\UNO.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\UNO.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/UNO.cpp",
   "output": "CMakeFiles/UNO.dir/src/UNO.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\Card.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\Card.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\Card.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\Card.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/Card.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/Card.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\NormalCard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\NormalCard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\NormalCard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\NormalCard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/NormalCard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/NormalCard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\WildCard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\WildCard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\WildCard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\WildCard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/WildCard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\BlockWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\BlockWildcard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\BlockWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\BlockWildcard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ColorWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ColorWildcard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ColorWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ColorWildcard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusFourWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusFourWildcard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusFourWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusFourWildcard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusTwoWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusTwoWildcard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\PlusTwoWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\PlusTwoWildcard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ReverseWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ReverseWildcard.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\cards\\wildcards\\ReverseWildcard.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\cards\\wildcards\\ReverseWildcard.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp",
   "output": "CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\Game.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Game.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\Game.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Game.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/Game.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/Game.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\Player.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Player.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\Player.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Player.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/Player.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/Player.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\Turn.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Turn.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\Turn.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\Turn.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/Turn.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/Turn.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\UnoEngine.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\UnoEngine.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\UnoEngine.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\UnoEngine.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/UnoEngine.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\makers\\DeckMaker.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\makers\\DeckMaker.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\makers\\DeckMaker.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\makers\\DeckMaker.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/makers/DeckMaker.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\makers\\TurnMaker.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\makers\\TurnMaker.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\makers\\TurnMaker.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\makers\\TurnMaker.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/makers/TurnMaker.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\engine\\settings\\Setting.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\settings\\Setting.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\engine\\settings\\Setting.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\engine\\settings\\Setting.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/engine/settings/Setting.cpp",
   "output": "CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\exceptions\\InputException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\InputException.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\exceptions\\InputException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\InputException.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/InputException.cpp",
   "output": "CMakeFiles/UNO.dir/src/exceptions/InputException.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\exceptions\\ListException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\ListException.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\exceptions\\ListException.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\exceptions\\ListException.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/exceptions/ListException.cpp",
   "output": "CMakeFiles/UNO.dir/src/exceptions/ListException.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\CircularList.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\CircularList.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\lists\\CircularList.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\CircularList.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/CircularList.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\LinkedList.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\LinkedList.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\lists\\LinkedList.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\LinkedList.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/LinkedList.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\Node.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\Node.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\lists\\Node.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\Node.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Node.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/Node.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\NodeC.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\NodeC.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\lists\\NodeC.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\NodeC.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/NodeC.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\lists\\Stack.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\Stack.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\lists\\Stack.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\lists\\Stack.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Stack.cpp",
   "output": "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\menus\\GameMenu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\menus\\GameMenu.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\menus\\GameMenu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\menus\\GameMenu.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/GameMenu.cpp",
   "output": "CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj"
 },
 {
   "directory": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\UNO.dir\\src\\menus\\Menu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\menus\\Menu.cpp\"",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/UNO.dir/includes_CXX.rsp -g -std=c++1z -Wall -Wextra -Wpedantic -o CMakeFiles\\UNO.dir\\src\\menus\\Menu.cpp.obj -c \"C:\\Users\\antho\\OneDrive\\Escritorio\\Universidad\\5to semestre\\Estructura de datos\\UNO_ED\\Game\\src\\menus\\Menu.cpp\"",
   "file": "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp",
   "output": "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
 }

@@ -13,15 +13,11 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
  c:\mingw\include\wchar.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h c:\mingw\include\wctype.h \
+ c:\mingw\include\sdkddkver.h c:\mingw\include\stdio.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
- c:\mingw\include\sys\types.h c:\mingw\include\stdio.h \
- c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- c:\mingw\include\stdlib.h c:\mingw\include\direct.h \
- c:\mingw\include\sys/stat.h c:\mingw\include\io.h \
- c:\mingw\include\stdint.h c:\mingw\include\time.h \
- c:\mingw\include\locale.h c:\mingw\include\process.h \
+ c:\mingw\include\stdlib.h c:\mingw\include\time.h \
+ c:\mingw\include\sys\types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\exception \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\exception_ptr.h \
@@ -92,6 +88,7 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwctype \
+ c:\mingw\include\wctype.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_base.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_inline.h \
@@ -145,8 +142,7 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h \
  c:\mingw\include\windows.h c:\mingw\include\windef.h \
  c:\mingw\include\winnt.h c:\mingw\include\winerror.h \
- c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h c:\mingw\include\basetsd.h \
+ c:\mingw\include\string.h c:\mingw\include\basetsd.h \
  c:\mingw\include\pshpack4.h c:\mingw\include\poppack.h \
  c:\mingw\include\wincon.h c:\mingw\include\winbase.h \
  c:\mingw\include\wingdi.h c:\mingw\include\winuser.h \

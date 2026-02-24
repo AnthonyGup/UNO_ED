@@ -1,4 +1,6 @@
 #include "Menu.h"
+#include <cctype>
+#include <cstdlib>
 
 using namespace std;
 
@@ -11,8 +13,12 @@ Menu::~Menu()
 
 void Menu::limpiarPantalla()
 {
-    system("cls"); // En Windows
-    // Linux: system("clear");
+#ifdef _WIN32
+    system("cls");
+#else
+    cout << "\033[2J\033[H";
+    cout.flush();
+#endif
 }
 
 void Menu::mostrarLinea(int ancho)
@@ -83,7 +89,7 @@ int Menu::obtenerOpcion(int minimo, int maximo)
 
             for (size_t i = inicio; i < entrada.length(); i++)
             {
-                if (!isdigit(entrada[i]))
+                if (!isdigit(static_cast<unsigned char>(entrada[i])))
                 {
                     esNumero = false;
                     break;
