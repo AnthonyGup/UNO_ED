@@ -1,37 +1,42 @@
+#include "../../engine/Game.h"
 #include "PlusFourWildcard.h"
 
-PlusFourWildcard::PlusFourWildcard(bool hasFlip, int iColor) : WildCard(*(new string("+4")), hasFlip, iColor) {
+PlusFourWildcard::PlusFourWildcard(bool hasFlip, int iColor) : WildCard("+4", hasFlip, -1) {
     drawAmount = 4;
-    setSimbolo(*(new string("+4")), 0);
+    setSimbolo("+4", 0);
     if (this->hasFlip) {
         drawAmount = 3;
-        setSimbolo(*(new string("+3")), 0);
+        setSimbolo("+3", 0);
     }
 }
 
 PlusFourWildcard::~PlusFourWildcard() {}
 
 void PlusFourWildcard::applyEffect(Game& engine) {
-    //engine.plus(this->getDrawAmount());
-    
-    //engine.changeColor(engine.selectColor());
+    engine.plus(this->getDrawAmount(), false, true);
+    int selectedColor = engine.selectColor();
+    engine.changeColor(selectedColor);
 }
 
 void PlusFourWildcard::changeFlip() {
-    if (this->flipped) // Si actualmente esta flipped, se cambia a normal
+    if (this->flipped)
     {
         this->drawAmount = 3;
-        this->actualColor = COLORS_N[this->INDEX_COLOR];
+        this->actualColor = COLORS_N[0];
         return;
     }
-    // si no esta flipped se cambia a flipped
     this->drawAmount = 6;
-    this->actualColor = COLORS_F[this->indexColorFlip];
+    this->actualColor = COLORS_F[0];
+}
+
+int PlusFourWildcard::getDrawAmount() {
+    return drawAmount;
+}
+
+void PlusFourWildcard::setDrawAmount(int amountIndex) {
+    this->drawAmount = amountIndex;
 }
 
 int PlusFourWildcard::getColorIndex() {
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis(0, 3);
-    return dis(gen); // Devuelve un número aleatorio entre 0 y 3 para seleccionar un color al azar
+    return -1;
 }

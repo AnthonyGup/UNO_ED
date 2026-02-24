@@ -9,6 +9,10 @@
 #include <string>
 #include <iostream>
 
+// Forward declarations para evitar includes circulares
+class Game;
+class GameMenu;
+
 using namespace std;
 
 class UnoEngine {

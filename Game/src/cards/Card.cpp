@@ -1,6 +1,6 @@
 #include "Card.h"
 
-Card::Card(string& symbol, bool hasFlip, int iColor) : INDEX_COLOR(iColor) {
+Card::Card(const string& symbol, bool hasFlip, int iColor) : INDEX_COLOR(iColor) {
     this->hasFlip = hasFlip;
     this->setSimbolo(symbol, 0);
     this->actualColor = COLORS_N[iColor];
@@ -12,28 +12,40 @@ int Card::getColorIndex() {
     return this->INDEX_COLOR;
 }
 
-string Card::center(string& text) {
+string Card::center(const string& text) {
     string t = text;
     if (t.length() > 2) {
         t = t.substr(0, 2);
     }
 
     int espacios = 2 - t.length();
-    int izq = espacios / 2;
+    int izq = (espacios + 1) / 2;
     int der = espacios - izq;
 
     return string(izq, ' ') + t + string(der, ' ');
 }
 
-void Card::setSimbolo(string& sim, int index) {
+void Card::setSimbolo(const string& sim, int index) {
     this->simbolo[index] = sim;
 }
 
-string Card::renderLine(int index, string& valor) {
+string Card::renderLine(int index, const string& valor) {
+    int colorIdx = this->getColorIndex();
+    
+    if (colorIdx == -1) {
+        if (index == 0) {
+            return COLORS_N[0] + "┌─" + COLORS_N[1] + "─" + COLORS_N[2] + "─" + COLORS_N[3] + "─┐" + RESET;
+        }
+        if (index == 1) {
+            return COLORS_N[0] + "│" + RESET + " " + center(valor) + " " + COLORS_N[3] + "│" + RESET;
+        }
+        return COLORS_N[2] + "└─" + COLORS_N[1] + "─" + COLORS_N[0] + "─" + COLORS_N[3] + "─┘" + RESET;
+    }
+    
     if (this->isFlipped()) {
-        this->actualColor = COLORS_F[this->getColorIndex()];
+        this->actualColor = COLORS_F[colorIdx];
     } else {
-        this->actualColor = COLORS_N[this->getColorIndex()];
+        this->actualColor = COLORS_N[colorIdx];
     }
     
     if (index == 0) {
@@ -43,15 +55,6 @@ string Card::renderLine(int index, string& valor) {
         return this->actualColor + "│ " + center(valor) + " │" + this->RESET;
     }
     return this->actualColor + "└────┘" + this->RESET;
-    /*
-        for (int fila = 0; fila < Carta::ALTO; fila++) {
-            for (int i = 0; i < numCartas; i++) {
-                cout << mano[i]->renderLinea(
-                ) << " ";
-            }
-        cout << endl;
-        }
-*/
 }
 
 bool Card::isFlipped() {
@@ -86,7 +89,7 @@ void Card::flip() {
 	}
 }
 
-void Card::setFlipAtributes(int colorFlip, string& simbolFlip) {
+void Card::setFlipAtributes(int colorFlip, const string& simbolFlip) {
     this->indexColorFlip = colorFlip;
     this->setSimbolo(simbolFlip, 1);
 }

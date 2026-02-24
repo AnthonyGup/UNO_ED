@@ -94,7 +94,8 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24
 			]
 		}
 	],
@@ -150,7 +151,8 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24
 			]
 		}
 	],
@@ -292,6 +294,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/lists/Stack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/menus/GameMenu.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

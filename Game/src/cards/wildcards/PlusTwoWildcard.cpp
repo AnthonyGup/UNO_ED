@@ -1,19 +1,19 @@
+#include "../../engine/Game.h"
 #include "PlusTwoWildcard.h"
 
-PlusTwoWildcard::PlusTwoWildcard(bool hasFlip, int iColor) : WildCard(*(new string("+2")), hasFlip, iColor), drawAmount(2) {
+PlusTwoWildcard::PlusTwoWildcard(bool hasFlip, int iColor) : WildCard("+2", hasFlip, iColor), drawAmount(2) {
     drawAmount = 2;
-    this->setSimbolo(*(new string("+2")), 0);
+    this->setSimbolo("+2", 0);
     if(this->hasFlip) {
         this->drawAmount = 1;
-        this->setSimbolo(*(new string("+1")), 0);
+        this->setSimbolo("+1", 0);
     }
 }
 
 PlusTwoWildcard::~PlusTwoWildcard() {}
 
 void PlusTwoWildcard::applyEffect(Game& engine) {
-    //engine.plus(this->getDrawAmount());
-
+    engine.plus(this->getDrawAmount(), true, false); // isPlusTwo = true
 }
 
 void PlusTwoWildcard::changeFlip() {

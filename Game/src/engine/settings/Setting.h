@@ -15,6 +15,9 @@ class Setting {
         //Win whit black card
 
     public:
+        // Constructores
+        Setting(); // Constructor por defecto
+        Setting(bool plusTwo, bool plusFour, bool dare, int stealMode, bool uno); // Constructor con parámetros
 
         //Stacking
             bool getPlusTwoStacking();

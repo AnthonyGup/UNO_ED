@@ -1,24 +1,31 @@
 #include "CircularList.h"
 #include "../exceptions/ListException.h"
+#include "../engine/Turn.h"
 
 CircularList::CircularList() : head(nullptr), tail(nullptr), size(0), reversed(false) {}
 
-CircularList::~CircularList() {
+CircularList::~CircularList()
+{
     clear();
 }
 
-int CircularList::getSize() { 
+int CircularList::getSize()
+{
     return size;
 }
 
-void CircularList::insertFirst(Turn* value) {
-    NodeC* newNode = new NodeC(value);
-    if(this->isEmpty()) {
+void CircularList::insertFirst(Turn *value)
+{
+    NodeC *newNode = new NodeC(value);
+    if (this->isEmpty())
+    {
         newNode->setNext(newNode);
         newNode->setPrev(newNode);
         head = newNode;
         tail = newNode;
-    } else {
+    }
+    else
+    {
         head->setPrev(newNode);
         newNode->setNext(head);
         newNode->setPrev(tail);
@@ -28,24 +35,28 @@ void CircularList::insertFirst(Turn* value) {
     size++;
 }
 
-void CircularList::insertAt(int index, Turn* value) {
-    if (index < 0 || index > size) {
+void CircularList::insertAt(int index, Turn *value)
+{
+    if (index < 0 || index > size)
+    {
         throw InvalidIndexException(index, size);
     }
-    
-    if (this->isEmpty() || index == 0) {
+
+    if (this->isEmpty() || index == 0)
+    {
         insertFirst(value);
         return;
     }
 
-    if (index == size) {
+    if (index == size)
+    {
         insertLast(value);
         return;
     }
 
-    NodeC* prevNode = this->getAt(index - 1);
-    NodeC* newNode = new NodeC(value);
-    NodeC* nextNode = prevNode->getNext(reversed);
+    NodeC *prevNode = this->getAt(index - 1);
+    NodeC *newNode = new NodeC(value);
+    NodeC *nextNode = prevNode->getNext(reversed);
     newNode->setNext(nextNode);
     newNode->setPrev(prevNode);
     nextNode->setPrev(newNode);
@@ -53,37 +64,54 @@ void CircularList::insertAt(int index, Turn* value) {
     size++;
 }
 
-NodeC* CircularList::getAt(int index) {
-    if (index < 0 || index >= size || this->isEmpty()) {
+NodeC *CircularList::getAt(int index)
+{
+    if (index < 0 || index >= size || this->isEmpty())
+    {
         throw InvalidIndexException(index, size);
     }
 
-    NodeC* current = this->head;
+    NodeC *current = this->head;
 
-    for (int i = 0; i < index; i++) {
+    for (int i = 0; i < index; i++)
+    {
         current = current->getNext(reversed);
     }
     return current;
 }
 
-bool CircularList::isEmpty() {
+bool CircularList::isEmpty()
+{
     return this->head == nullptr;
 }
 
-NodeC* CircularList::getTail() {
-    if (this->isEmpty()) {
+NodeC *CircularList::getTail()
+{
+    if (this->isEmpty())
+    {
         throw EmptyListException();
     }
     return tail;
 }
 
-void CircularList::insertLast(Turn* value) {
-    if (this->isEmpty()) {
+NodeC *CircularList::getHead()
+{
+    if (this->isEmpty())
+    {
+        throw EmptyListException();
+    }
+    return head;
+}
+
+void CircularList::insertLast(Turn *value)
+{
+    if (this->isEmpty())
+    {
         insertFirst(value);
         return;
     }
 
-    NodeC* newNode = new NodeC(value);
+    NodeC *newNode = new NodeC(value);
     newNode->setNext(head);
     newNode->setPrev(tail);
     tail->setNext(newNode);
@@ -92,13 +120,16 @@ void CircularList::insertLast(Turn* value) {
     size++;
 }
 
-void CircularList::deleteFirst() {
-    if (this->isEmpty()) {
+void CircularList::deleteFirst()
+{
+    if (this->isEmpty())
+    {
         throw EmptyListException();
     }
 
     // Si solo hay un nodo
-    if (head->getNext(reversed) == head) {
+    if (head->getNext(reversed) == head)
+    {
         delete head;
         head = nullptr;
         tail = nullptr;
@@ -107,7 +138,7 @@ void CircularList::deleteFirst() {
     }
 
     // Para cuando hay más de un nodo
-    NodeC* nodeToDelete = head;
+    NodeC *nodeToDelete = head;
     head = head->getNext(reversed);
     tail->setNext(head);
     head->setPrev(tail);
@@ -115,13 +146,16 @@ void CircularList::deleteFirst() {
     size--;
 }
 
-void CircularList::deleteLast() {
-    if (this->isEmpty()) {
+void CircularList::deleteLast()
+{
+    if (this->isEmpty())
+    {
         throw EmptyListException();
     }
 
     // Si solo hay un nodo
-    if (tail->getPrev(reversed) == tail) {
+    if (tail->getPrev(reversed) == tail)
+    {
         delete tail;
         head = nullptr;
         tail = nullptr;
@@ -129,7 +163,7 @@ void CircularList::deleteLast() {
         return;
     }
 
-    NodeC* nodeToDelete = tail;
+    NodeC *nodeToDelete = tail;
     tail = tail->getPrev(reversed);
     tail->setNext(head);
     head->setPrev(tail);
@@ -137,23 +171,27 @@ void CircularList::deleteLast() {
     size--;
 }
 
-bool CircularList::deleteAt(int index) {
-    if (index < 0 || index >= size || this->isEmpty()) {
+bool CircularList::deleteAt(int index)
+{
+    if (index < 0 || index >= size || this->isEmpty())
+    {
         throw InvalidIndexException(index, size);
     }
 
-    if (index == 0) {
+    if (index == 0)
+    {
         deleteFirst();
         return true;
     }
-    if (index == size - 1) {
+    if (index == size - 1)
+    {
         deleteLast();
         return true;
     }
 
-    NodeC* nodeToDelete = getAt(index);
-    NodeC* prevNode = nodeToDelete->getPrev(reversed);
-    NodeC* nextNode = nodeToDelete->getNext(reversed);
+    NodeC *nodeToDelete = getAt(index);
+    NodeC *prevNode = nodeToDelete->getPrev(reversed);
+    NodeC *nextNode = nodeToDelete->getNext(reversed);
     prevNode->setNext(nextNode);
     nextNode->setPrev(prevNode);
     delete nodeToDelete;
@@ -161,20 +199,43 @@ bool CircularList::deleteAt(int index) {
     return true;
 }
 
-void CircularList::clear() {
-    while (!isEmpty()) {
+void CircularList::clear()
+{
+    while (!isEmpty())
+    {
         deleteFirst();
     }
 }
 
-void CircularList::changeDirection() {
+void CircularList::changeDirection()
+{
     reversed = !reversed;
 }
 
-bool CircularList::isReversed() const {
+bool CircularList::isReversed() const
+{
     return reversed;
 }
 
-void CircularList::setDirection(bool rev) {
+void CircularList::setDirection(bool rev)
+{
     reversed = rev;
+}
+
+NodeC *CircularList::getNext(NodeC *node)
+{
+    if (node == nullptr || this->isEmpty())
+    {
+        throw EmptyListException();
+    }
+    return node->getNext(reversed);
+}
+
+NodeC *CircularList::getPrev(NodeC *node)
+{
+    if (node == nullptr || this->isEmpty())
+    {
+        throw EmptyListException();
+    }
+    return node->getPrev(reversed);
 }

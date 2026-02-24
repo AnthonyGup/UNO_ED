@@ -1,7 +1,7 @@
 #ifndef NODEC_H
 #define NODEC_H
 
-class Turn; // Forward declaration
+#include "../engine/Turn.h"
 
 class NodeC {
 private:

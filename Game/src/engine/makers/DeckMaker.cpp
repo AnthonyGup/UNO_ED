@@ -8,8 +8,10 @@ DeckMaker::DeckMaker(int players) {
 }
 
 DeckMaker::~DeckMaker() {
-    this->deckStack->clearAndDeleteCards();
-    delete this->deckStack;
+    if (this->deckStack != nullptr) {
+        this->deckStack->clearAndDeleteCards();
+        delete this->deckStack;
+    }
 }
 
 int DeckMaker::calculateDeckSize(int players) {
@@ -29,14 +31,12 @@ void DeckMaker::addCard(Card* card) {
 void DeckMaker::createNormalCards(bool& hasFlip) {
     for (int color = 0; color < 4; color++) {
         // Insertar "0" de cada color
-        string symbol = "0";
-        addCard(new NormalCard(symbol, hasFlip, color));
+        addCard(new NormalCard("0", hasFlip, color));
         
         // Insertar números 1-9, 2 de cada uno
         for (int number = 1; number <= 9; number++) {
             for (int count = 0; count < 2; count++) {
-                symbol = std::to_string(number);
-                addCard(new NormalCard(symbol, hasFlip, color));
+                addCard(new NormalCard(std::to_string(number), hasFlip, color));
             }
         }
     }
@@ -67,8 +67,10 @@ void DeckMaker::shuffleDeck() {
     this->deckStack->shuffle();
 }
 
-Stack* DeckMaker::getDeckStack() const {
-    return this->deckStack;
+Stack* DeckMaker::getDeckStack() {
+    Stack* transferredDeck = this->deckStack;
+    this->deckStack = nullptr;
+    return transferredDeck;
 }
 
 int DeckMaker::getDeckSize() const {

@@ -105,5 +105,71 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\exceptions\inputexception.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\settings\setting.h \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine/makers/DeckMaker.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\stack.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\card.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\card.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\normalcard.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\Card.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcard.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\blockwildcard.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcard.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\colorwildcard.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\random \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\random.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\opt_random.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\random.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\reversewildcard.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\plustwowildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\exceptions\inputexception.h \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine/settings/Setting.h
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine/settings/Setting.h \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine/makers/TurnMaker.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\circularlist.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\NodeC.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\Player.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\linkedlist.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\Node.h \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine/makers/DeckMaker.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\player.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h \
+ c:\mingw\include\windows.h c:\mingw\include\windef.h \
+ c:\mingw\include\winnt.h c:\mingw\include\winerror.h \
+ c:\mingw\include\string.h c:\mingw\include\strings.h \
+ c:\mingw\include\wchar.h c:\mingw\include\basetsd.h \
+ c:\mingw\include\pshpack4.h c:\mingw\include\poppack.h \
+ c:\mingw\include\wincon.h c:\mingw\include\winbase.h \
+ c:\mingw\include\wingdi.h c:\mingw\include\winuser.h \
+ c:\mingw\include\dbt.h c:\mingw\include\winnls.h \
+ c:\mingw\include\winver.h c:\mingw\include\winnetwk.h \
+ c:\mingw\include\winreg.h c:\mingw\include\winsvc.h \
+ c:\mingw\include\cderr.h c:\mingw\include\dde.h c:\mingw\include\ddeml.h \
+ c:\mingw\include\dlgs.h c:\mingw\include\imm.h \
+ c:\mingw\include\lzexpand.h c:\mingw\include\mmsystem.h \
+ c:\mingw\include\nb30.h c:\mingw\include\rpc.h c:\mingw\include\rpcdce.h \
+ c:\mingw\include\basetyps.h c:\mingw\include\rpcdcep.h \
+ c:\mingw\include\rpcnsi.h c:\mingw\include\rpcnterr.h \
+ c:\mingw\include\shellapi.h c:\mingw\include\pshpack2.h \
+ c:\mingw\include\winperf.h c:\mingw\include\commdlg.h \
+ c:\mingw\include\unknwn.h c:\mingw\include\objfwd.h \
+ c:\mingw\include\wtypes.h c:\mingw\include\rpcndr.h \
+ c:\mingw\include\rpcnsip.h c:\mingw\include\prsht.h \
+ c:\mingw\include\winspool.h c:\mingw\include\_winsock.h \
+ c:\mingw\include\winsock2.h c:\mingw\include\winsock.h \
+ c:\mingw\include\sys\bsdtypes.h c:\mingw\include\sys\time.h \
+ c:\mingw\include\nspapi.h c:\mingw\include\wtypes.h \
+ c:\mingw\include\ole2.h c:\mingw\include\objbase.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdlib.h \
+ c:\mingw\include\objidl.h c:\mingw\include\cguid.h \
+ c:\mingw\include\olectlid.h c:\mingw\include\oleauto.h \
+ c:\mingw\include\oaidl.h c:\mingw\include\oleidl.h

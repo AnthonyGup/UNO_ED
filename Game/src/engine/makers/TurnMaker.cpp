@@ -2,6 +2,7 @@
 
 TurnMaker::TurnMaker(int *playersAmount, Stack* deck) : playersAmount(playersAmount), DECK(deck) {
     this->players = new Player*[*(this->playersAmount)];
+    this->turnos = nullptr;
 }
 void TurnMaker::createPlayers() {
     for (int i = 0; i < *(this->playersAmount); i++) {
@@ -28,5 +29,12 @@ void TurnMaker::generateTurns() {
 
 void TurnMaker::createCircularList() {
     this->turnos = new CircularList();
+}
 
+CircularList* TurnMaker::getTurns() {
+    return this->turnos;
+}
+
+TurnMaker::~TurnMaker() {
+    delete[] this->players;
 }

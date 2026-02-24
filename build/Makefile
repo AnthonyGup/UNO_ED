@@ -681,6 +681,30 @@ src/lists/Stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/lists/Stack.cpp.s
 .PHONY : src/lists/Stack.cpp.s
 
+src/menus/GameMenu.obj: src/menus/GameMenu.cpp.obj
+.PHONY : src/menus/GameMenu.obj
+
+# target to build an object file
+src/menus/GameMenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj
+.PHONY : src/menus/GameMenu.cpp.obj
+
+src/menus/GameMenu.i: src/menus/GameMenu.cpp.i
+.PHONY : src/menus/GameMenu.i
+
+# target to preprocess a source file
+src/menus/GameMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.i
+.PHONY : src/menus/GameMenu.cpp.i
+
+src/menus/GameMenu.s: src/menus/GameMenu.cpp.s
+.PHONY : src/menus/GameMenu.s
+
+# target to generate assembly for a file
+src/menus/GameMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UNO.dir\build.make CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.s
+.PHONY : src/menus/GameMenu.cpp.s
+
 src/menus/Menu.obj: src/menus/Menu.cpp.obj
 .PHONY : src/menus/Menu.obj
 
@@ -783,6 +807,9 @@ help:
 	@echo ... src/lists/Stack.obj
 	@echo ... src/lists/Stack.i
 	@echo ... src/lists/Stack.s
+	@echo ... src/menus/GameMenu.obj
+	@echo ... src/menus/GameMenu.i
+	@echo ... src/menus/GameMenu.s
 	@echo ... src/menus/Menu.obj
 	@echo ... src/menus/Menu.i
 	@echo ... src/menus/Menu.s

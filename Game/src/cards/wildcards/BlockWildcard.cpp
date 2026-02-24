@@ -1,15 +1,16 @@
+#include "../../engine/Game.h"
 #include "BlockWildcard.h"
 
-BlockWildcard::BlockWildcard(bool hasFlip, int iColor) : WildCard(*(new string("Ø")), hasFlip, iColor) {
-    this->setSimbolo(*(new string("Ø")), 0);
+BlockWildcard::BlockWildcard(bool hasFlip, int iColor) : WildCard("Ø", hasFlip, iColor) {
+    this->setSimbolo("Ø", 0);
 }
 
 BlockWildcard::~BlockWildcard() {}
 
 void BlockWildcard::applyEffect(Game& engine) {
     // Lógica para aplicar el efecto de la carta de bloqueo
-    // Por ejemplo, podrías hacer que el siguiente jugador pierda su turno
-    //engine.skipPlayers(this->indexOfPlayers);
+    // El siguiente jugador pierde su turno
+    engine.skipNextPlayer();
 }
 
 void BlockWildcard::changeFlip() {

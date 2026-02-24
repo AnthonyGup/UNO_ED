@@ -33,7 +33,7 @@
 
             void shuffleDeck();
 
-            Stack* getDeckStack() const;
+                Stack* getDeckStack();
             int getDeckSize() const;
     };
 

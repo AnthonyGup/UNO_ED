@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Node.cpp" "CMakeFiles/UNO.dir/src/lists/Node.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/lists/Node.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/NodeC.cpp" "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Stack.cpp" "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj.d"
+  "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/GameMenu.cpp" "CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj.d"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp" "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj" "gcc" "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj.d"
   )
 

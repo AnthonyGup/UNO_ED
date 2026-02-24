@@ -45,6 +45,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj"
   "CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj.d"
+  "CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj"
+  "CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj.d"
   "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj"
   "CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj.d"
   "UNO.exe"

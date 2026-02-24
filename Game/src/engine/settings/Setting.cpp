@@ -1,5 +1,15 @@
 #include "Setting.h"
 
+// Constructores
+Setting::Setting() {
+    // Los valores por defecto ya están inicializados en el .h
+}
+
+Setting::Setting(bool plusTwo, bool plusFour, bool dare, int stealMode, bool uno) 
+    : plusTwoStacking(plusTwo), plusFourStacking(plusFour), 
+      plusFourDare(dare), optionStealMode(stealMode), soutUno(uno) {
+}
+
 //Stacking
 bool Setting::getPlusTwoStacking() {
     return plusTwoStacking;

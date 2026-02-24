@@ -22,6 +22,7 @@ public:
     void deleteFirst();
     void deleteLast();
     bool deleteAt(int index);
+    NodeC* getHead();
     NodeC* getTail();
     NodeC* getAt(int index);
     NodeC* getNext(NodeC* node);

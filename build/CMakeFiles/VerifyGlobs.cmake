@@ -27,6 +27,7 @@ set(OLD_GLOB
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Node.cpp"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/NodeC.cpp"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/lists/Stack.cpp"
+  "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/GameMenu.cpp"
   "C:/Users/antho/OneDrive/Escritorio/Universidad/5to semestre/Estructura de datos/UNO_ED/Game/src/menus/Menu.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -1,4 +1,6 @@
 #include "UnoEngine.h"
+#include "Game.h"
+#include "../menus/GameMenu.h"
 
 UnoEngine::UnoEngine() : juegoEnCurso(false), cantidadJugadores(2) {
     inicializarJuego();
@@ -7,17 +9,8 @@ UnoEngine::UnoEngine() : juegoEnCurso(false), cantidadJugadores(2) {
 UnoEngine::~UnoEngine() {}
 
 void UnoEngine::inicializarJuego() {
-    bool hasFlip = false;
-    DeckMaker* deckMaker = new DeckMaker(cantidadJugadores);
-    deckMaker->generateDeck(hasFlip);
-    deckMaker->shuffleDeck();
-    this->deck = deckMaker->getDeckStack();
-
-    TurnMaker* turnMaker = new TurnMaker(&cantidadJugadores, deck);
-    turnMaker->generateTurns();
-    this->turns = turnMaker->getTurns();
-
-    
+    this->deck = nullptr;
+    this->turns = nullptr;
 }
 
 void UnoEngine::manejarInicio() {
@@ -38,6 +31,43 @@ void UnoEngine::manejarInicio() {
                 cout << "Opción no válida" << endl;
                 break;
         }
+        
+        // Ahora que tenemos la configuración y cantidad de jugadores, crear el juego
+        cout << "\nPreparando el juego..." << endl;
+        
+        // Regenerar el deck y los turnos con la configuración actual
+        bool hasFlip = false;
+        DeckMaker deckMaker(cantidadJugadores);
+        deckMaker.generateDeck(hasFlip);
+        deckMaker.shuffleDeck();
+        this->deck = deckMaker.getDeckStack();
+        
+        TurnMaker turnMaker(&cantidadJugadores, deck);
+        turnMaker.generateTurns();
+        this->turns = turnMaker.getTurns();
+        
+        // Crear una copia de la configuración para pasarla al Game
+        Setting* gameSettings = new Setting(
+            configuration.getPlusTwoStacking(),
+            configuration.getPlusFourStacking(),
+            configuration.getPlusFourDare(),
+            configuration.getOptionStealMode(),
+            configuration.getSoutUno()
+        );
+        
+        // Crear el objeto Game
+        Game* game = new Game(deck, turns, gameSettings);
+        
+        // Crear el GameMenu y comenzar la partida
+        GameMenu* gameMenu = new GameMenu(game);
+        gameMenu->startGame();
+        
+        // Limpiar memoria después del juego
+        delete gameMenu;
+        delete game;
+        
+        cout << "\n¡Partida finalizada!" << endl;
+        
     } catch (const InputException&) {
         cout << "Error al configurar el juego. Volviendo al menu principal..." << endl;
     }
@@ -46,7 +76,7 @@ void UnoEngine::manejarInicio() {
 void UnoEngine::solicitarJugadores() {
     try {
         menu.pedirCantidadJugadores();
-        cantidadJugadores = menu.obtenerOpcion(2, 1000000000000);
+        cantidadJugadores = menu.obtenerOpcion(2, 10);
         cout << "Cantidad de jugadores seleccionada: " << cantidadJugadores << endl;
     } catch (const InputException&) {
         cout << "Error al leer la cantidad de jugadores. Se usará 2 por defecto." << endl;

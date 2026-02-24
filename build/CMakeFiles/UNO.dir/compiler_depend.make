@@ -3,26 +3,87 @@
 
 CMakeFiles/UNO.dir/src/UNO.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/UNO.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.h \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h \
   c:/mingw/include/_mingw.h \
+  c:/mingw/include/_winsock.h \
+  c:/mingw/include/basetsd.h \
+  c:/mingw/include/basetyps.h \
+  c:/mingw/include/cderr.h \
+  c:/mingw/include/cguid.h \
+  c:/mingw/include/commdlg.h \
   c:/mingw/include/ctype.h \
+  c:/mingw/include/dbt.h \
+  c:/mingw/include/dde.h \
+  c:/mingw/include/ddeml.h \
   c:/mingw/include/direct.h \
+  c:/mingw/include/dlgs.h \
   c:/mingw/include/errno.h \
+  c:/mingw/include/imm.h \
   c:/mingw/include/io.h \
   c:/mingw/include/locale.h \
+  c:/mingw/include/lzexpand.h \
+  c:/mingw/include/math.h \
+  c:/mingw/include/mmsystem.h \
   c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/nb30.h \
+  c:/mingw/include/nspapi.h \
+  c:/mingw/include/oaidl.h \
+  c:/mingw/include/objbase.h \
+  c:/mingw/include/objfwd.h \
+  c:/mingw/include/objidl.h \
+  c:/mingw/include/ole2.h \
+  c:/mingw/include/oleauto.h \
+  c:/mingw/include/olectlid.h \
+  c:/mingw/include/oleidl.h \
+  c:/mingw/include/poppack.h \
   c:/mingw/include/process.h \
+  c:/mingw/include/prsht.h \
+  c:/mingw/include/pshpack2.h \
+  c:/mingw/include/pshpack4.h \
+  c:/mingw/include/rpc.h \
+  c:/mingw/include/rpcdce.h \
+  c:/mingw/include/rpcdcep.h \
+  c:/mingw/include/rpcndr.h \
+  c:/mingw/include/rpcnsi.h \
+  c:/mingw/include/rpcnsip.h \
+  c:/mingw/include/rpcnterr.h \
   c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/shellapi.h \
   c:/mingw/include/stdint.h \
   c:/mingw/include/stdio.h \
   c:/mingw/include/stdlib.h \
+  c:/mingw/include/string.h \
+  c:/mingw/include/strings.h \
   c:/mingw/include/sys/stat.h \
   c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/bsdtypes.h \
+  c:/mingw/include/sys/time.h \
   c:/mingw/include/sys/types.h \
   c:/mingw/include/time.h \
+  c:/mingw/include/unknwn.h \
   c:/mingw/include/w32api.h \
   c:/mingw/include/wchar.h \
   c:/mingw/include/wctype.h \
+  c:/mingw/include/winbase.h \
+  c:/mingw/include/wincon.h \
+  c:/mingw/include/windef.h \
+  c:/mingw/include/windows.h \
+  c:/mingw/include/winerror.h \
+  c:/mingw/include/wingdi.h \
+  c:/mingw/include/winnetwk.h \
+  c:/mingw/include/winnls.h \
+  c:/mingw/include/winnt.h \
+  c:/mingw/include/winperf.h \
+  c:/mingw/include/winreg.h \
+  c:/mingw/include/winsock.h \
+  c:/mingw/include/winsock2.h \
+  c:/mingw/include/winspool.h \
+  c:/mingw/include/winsvc.h \
+  c:/mingw/include/winuser.h \
+  c:/mingw/include/winver.h \
+  c:/mingw/include/wtypes.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
@@ -55,19 +116,29 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universid
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
@@ -98,19 +169,40 @@ CMakeFiles/UNO.dir/src/UNO.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universid
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdlib.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/player.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/menu.h
 
 CMakeFiles/UNO.dir/src/cards/Card.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/Card.cpp \
@@ -293,588 +385,6 @@ CMakeFiles/UNO.dir/src/cards/WildCard.cpp.obj: C:/Users/antho/OneDrive/Escritori
   c:/mingw/include/errno.h \
   c:/mingw/include/io.h \
   c:/mingw/include/locale.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ios \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/istream \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/setting.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/unoengine.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/menu.h
-
-CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h
-
-CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
-  c:/mingw/include/math.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h
-
-CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
-  c:/mingw/include/math.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h
-
-CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h
-
-CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
-  c:/mingw/include/msvcrtver.h \
-  c:/mingw/include/process.h \
-  c:/mingw/include/sdkddkver.h \
-  c:/mingw/include/stdint.h \
-  c:/mingw/include/stdio.h \
-  c:/mingw/include/stdlib.h \
-  c:/mingw/include/sys/stat.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/sys/types.h \
-  c:/mingw/include/time.h \
-  c:/mingw/include/w32api.h \
-  c:/mingw/include/wchar.h \
-  c:/mingw/include/wctype.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h
-
-CMakeFiles/UNO.dir/src/engine/Game.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.h \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.h \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h \
-  c:/mingw/include/_mingw.h \
-  c:/mingw/include/ctype.h \
-  c:/mingw/include/direct.h \
-  c:/mingw/include/errno.h \
-  c:/mingw/include/io.h \
-  c:/mingw/include/locale.h \
   c:/mingw/include/math.h \
   c:/mingw/include/msvcrtver.h \
   c:/mingw/include/process.h \
@@ -995,10 +505,16 @@ CMakeFiles/UNO.dir/src/engine/Game.cpp.obj: C:/Users/antho/OneDrive/Escritorio/U
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plusfourwildcard.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/makers/DeckMaker.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/makers/TurnMaker.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/unoengine.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
@@ -1006,6 +522,653 @@ CMakeFiles/UNO.dir/src/engine/Game.cpp.obj: C:/Users/antho/OneDrive/Escritorio/U
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/menu.h
+
+CMakeFiles/UNO.dir/src/cards/wildcards/BlockWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ColorWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/math.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusFourWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/math.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
+
+CMakeFiles/UNO.dir/src/cards/wildcards/PlusTwoWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
+
+CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
+
+CMakeFiles/UNO.dir/src/engine/Game.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Turn.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ios \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/istream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
 
 CMakeFiles/UNO.dir/src/engine/Player.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.h \
@@ -1182,7 +1345,11 @@ CMakeFiles/UNO.dir/src/engine/Turn.cpp.obj: C:/Users/antho/OneDrive/Escritorio/U
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h
 
 CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Turn.h \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.h \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
@@ -1190,6 +1357,7 @@ CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/include/errno.h \
   c:/mingw/include/io.h \
   c:/mingw/include/locale.h \
+  c:/mingw/include/math.h \
   c:/mingw/include/msvcrtver.h \
   c:/mingw/include/process.h \
   c:/mingw/include/sdkddkver.h \
@@ -1235,19 +1403,29 @@ CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
@@ -1278,19 +1456,41 @@ CMakeFiles/UNO.dir/src/engine/UnoEngine.cpp.obj: C:/Users/antho/OneDrive/Escrito
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/player.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/gamemenu.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/menu.h
 
 CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.cpp \
@@ -1362,7 +1562,6 @@ CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
-  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ctime \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
@@ -1404,7 +1603,123 @@ CMakeFiles/UNO.dir/src/engine/makers/DeckMaker.cpp.obj: C:/Users/antho/OneDrive/
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
 
-CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.cpp
+CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.h \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/math.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
 
 CMakeFiles/UNO.dir/src/engine/settings/Setting.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h
@@ -1730,7 +2045,12 @@ CMakeFiles/UNO.dir/src/lists/CircularList.cpp.obj: C:/Users/antho/OneDrive/Escri
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h
 
 CMakeFiles/UNO.dir/src/lists/LinkedList.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/LinkedList.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/LinkedList.h \
@@ -1929,10 +2249,207 @@ CMakeFiles/UNO.dir/src/lists/Node.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Un
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h
 
 CMakeFiles/UNO.dir/src/lists/NodeC.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.cpp \
-  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.h
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h
 
 CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Stack.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Stack.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/ctype.h \
+  c:/mingw/include/direct.h \
+  c:/mingw/include/errno.h \
+  c:/mingw/include/io.h \
+  c:/mingw/include/locale.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/process.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/sys/stat.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/time.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/include/wctype.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/clocale \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdint \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdio \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cstdlib \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ctime \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwchar \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cwctype \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ios \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/istream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h
+
+CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/GameMenu.cpp \
+  C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/GameMenu.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/ctype.h \
   c:/mingw/include/direct.h \
@@ -2037,8 +2554,20 @@ CMakeFiles/UNO.dir/src/lists/Stack.cpp.obj: C:/Users/antho/OneDrive/Escritorio/U
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h \
   c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h \
-  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcard.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h \
+  c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h
 
 CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/Menu.cpp \
   C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/Menu.h \
@@ -2153,51 +2682,25 @@ CMakeFiles/UNO.dir/src/menus/Menu.cpp.obj: C:/Users/antho/OneDrive/Escritorio/Un
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.h:
 
+c:/mingw/include/strings.h:
+
+c:/mingw/include/ole2.h:
+
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/UNO.cpp:
-
-c:/mingw/include/wctype.h:
-
-c:/mingw/include/errno.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h:
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.h:
+
+c:/mingw/include/winspool.h:
+
+c:/mingw/include/rpc.h:
 
 c:/mingw/include/_mingw.h:
 
-c:/mingw/include/ctype.h:
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h:
-
-c:/mingw/include/direct.h:
-
-c:/mingw/include/io.h:
-
-c:/mingw/include/locale.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc:
-
-c:/mingw/include/msvcrtver.h:
-
-c:/mingw/include/wchar.h:
-
-c:/mingw/include/process.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc:
-
-c:/mingw/include/sdkddkver.h:
+c:/mingw/include/_winsock.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/Card.cpp:
 
@@ -2205,39 +2708,187 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/system_error:
 
 c:/mingw/include/stdint.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h:
+c:/mingw/include/objfwd.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h:
+
+c:/mingw/include/basetsd.h:
+
+c:/mingw/include/sys/time.h:
 
 c:/mingw/include/stdio.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/memoryfwd.h:
 
-c:/mingw/include/stdlib.h:
+c:/mingw/include/oleauto.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype:
+c:/mingw/include/basetyps.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h:
+c:/mingw/include/rpcnterr.h:
 
-c:/mingw/include/sys/stat.h:
+c:/mingw/include/cderr.h:
 
-c:/mingw/include/sys/types.h:
+c:/mingw/include/cguid.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h:
+c:/mingw/include/objbase.h:
+
+c:/mingw/include/commdlg.h:
+
+c:/mingw/include/ctype.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h:
+
+c:/mingw/include/sys/bsdtypes.h:
+
+c:/mingw/include/winsock2.h:
+
+c:/mingw/include/io.h:
+
+c:/mingw/include/winsock.h:
+
+c:/mingw/include/dbt.h:
+
+c:/mingw/include/dde.h:
+
+c:/mingw/include/sdkddkver.h:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.h:
+
+c:/mingw/include/ddeml.h:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.h:
+
+c:/mingw/include/oleidl.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plustwowildcard.h:
+
+c:/mingw/include/direct.h:
+
+c:/mingw/include/math.h:
+
+c:/mingw/include/dlgs.h:
+
+c:/mingw/include/locale.h:
+
+c:/mingw/include/wctype.h:
+
+c:/mingw/include/errno.h:
+
+c:/mingw/include/nspapi.h:
+
+c:/mingw/include/imm.h:
+
+c:/mingw/include/nb30.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h:
+
+c:/mingw/include/lzexpand.h:
+
+c:/mingw/include/mmsystem.h:
+
+c:/mingw/include/unknwn.h:
+
+c:/mingw/include/msvcrtver.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/streambuf:
 
 c:/mingw/include/time.h:
 
+c:/mingw/include/oaidl.h:
+
+c:/mingw/include/objidl.h:
+
+c:/mingw/include/olectlid.h:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h:
+
+c:/mingw/include/poppack.h:
 
 c:/mingw/include/w32api.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h:
+c:/mingw/include/wchar.h:
+
+c:/mingw/include/windows.h:
+
+c:/mingw/include/process.h:
+
+c:/mingw/include/prsht.h:
+
+c:/mingw/include/pshpack2.h:
+
+c:/mingw/include/pshpack4.h:
+
+c:/mingw/include/rpcdce.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h:
+
+c:/mingw/include/rpcdcep.h:
+
+c:/mingw/include/rpcndr.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath:
+
+c:/mingw/include/rpcnsi.h:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Node.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h:
+
+c:/mingw/include/rpcnsip.h:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/exceptions/InputException.cpp:
+
+c:/mingw/include/shellapi.h:
+
+c:/mingw/include/stdlib.h:
+
+c:/mingw/include/string.h:
+
+c:/mingw/include/sys/stat.h:
+
+c:/mingw/include/sys/types.h:
+
+c:/mingw/include/winbase.h:
+
+c:/mingw/include/wincon.h:
+
+c:/mingw/include/windef.h:
+
+c:/mingw/include/winerror.h:
+
+c:/mingw/include/wingdi.h:
+
+c:/mingw/include/winnetwk.h:
+
+c:/mingw/include/winnls.h:
+
+c:/mingw/include/winnt.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Player.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
+
+c:/mingw/include/winperf.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h:
+
+c:/mingw/include/winreg.h:
+
+c:/mingw/include/winsvc.h:
+
+c:/mingw/include/winuser.h:
+
+c:/mingw/include/winver.h:
+
+c:/mingw/include/wtypes.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.tcc:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h:
 
@@ -2247,9 +2898,9 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_ios.tcc:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h:
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/Turn.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Stack.h:
 
@@ -2259,51 +2910,95 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/error_constants.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/char_traits.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/exception:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/cxxabi_forced.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_defines.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h:
-
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/hash_bytes.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/istream.tcc:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/vector.tcc:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.tcc:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_classes.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/localefwd.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/locale_facets.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h:
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/move.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream.tcc:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cctype:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cerrno:
 
@@ -2333,8 +3028,6 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/numeric_traits.h:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ext/type_traits.h:
-
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/initializer_list:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ios:
@@ -2345,10 +3038,6 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/istream:
 
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_vector.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/limits:
-
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h:
@@ -2356,8 +3045,6 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h:
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++locale.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_inline.h:
 
 c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/NodeC.h:
 
@@ -2373,13 +3060,21 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/os_defines.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/new:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ostream:
 
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdexcept:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/stdlib.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/string:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/type_traits:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
@@ -2387,11 +3082,29 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h:
 
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/player.h:
+
 c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/setting.h:
 
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Node.h:
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h:
 
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/inputexception.h:
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/turn.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h:
 
 c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/menu.h:
 
@@ -2405,43 +3118,19 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/WildCard.h:
 
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/makers/DeckMaker.h:
+
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/makers/TurnMaker.h:
+
 c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/settings/Setting.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/BlockWildcard.h:
 
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/Card.h:
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/engine/game.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.cpp:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ColorWildcard.h:
-
-c:/mingw/include/math.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/opt_random.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/random.tcc:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_bvector.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_numeric.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_uninitialized.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/cmath:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/numeric:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/random:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/vector:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusFourWildcard.cpp:
 
@@ -2449,55 +3138,29 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.cpp:
 
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/PlusTwoWildcard.h:
-
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/cards/wildcards/ReverseWildcard.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Game.h:
 
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/card.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/normalcard.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/blockwildcard.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/colorwildcard.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/plusfourwildcard.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/cards/wildcards/reversewildcard.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/Node.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/circularlist.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/linkedlist.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/lists/stack.h:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.cpp:
-
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.h:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Turn.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Turn.h:
 
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Player.cpp:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/Turn.cpp:
+
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/UnoEngine.cpp:
 
+c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/menus/gamemenu.h:
+
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.cpp:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/DeckMaker.h:
-
-c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ctime:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/makers/TurnMaker.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/engine/settings/Setting.cpp:
-
-C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/exceptions/InputException.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/exceptions/InputException.h:
 
@@ -2506,8 +3169,6 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/CircularList.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.h:
-
-c:/users/antho/onedrive/escritorio/universidad/5to\ semestre/estructura\ de\ datos/uno_ed/game/src/exceptions/listexception.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/LinkedList.cpp:
 
@@ -2518,6 +3179,12 @@ C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ dat
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/NodeC.cpp:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/lists/Stack.cpp:
+
+c:/mingw/lib/gcc/mingw32/6.3.0/include/c++/ctime:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/GameMenu.cpp:
+
+C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/GameMenu.h:
 
 C:/Users/antho/OneDrive/Escritorio/Universidad/5to\ semestre/Estructura\ de\ datos/UNO_ED/Game/src/menus/Menu.cpp:
 

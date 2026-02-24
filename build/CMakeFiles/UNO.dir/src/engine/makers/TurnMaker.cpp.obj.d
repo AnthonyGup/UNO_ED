@@ -3,7 +3,8 @@ CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj: \
  C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine\makers\TurnMaker.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\circularlist.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\NodeC.h \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine\makers\DeckMaker.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\Player.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -82,9 +83,12 @@ CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\linkedlist.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\Node.h \
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\card.h \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\engine\makers\DeckMaker.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\stack.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\card.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\card.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\normalcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\Card.h \
@@ -109,7 +113,4 @@ CMakeFiles/UNO.dir/src/engine/makers/TurnMaker.cpp.obj: \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\reversewildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcards\plustwowildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\player.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\Player.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\linkedlist.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\lists\Node.h
+ c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\turn.h

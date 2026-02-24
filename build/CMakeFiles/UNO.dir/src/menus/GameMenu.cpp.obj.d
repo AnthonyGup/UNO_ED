@@ -1,5 +1,6 @@
-CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.cpp \
+CMakeFiles/UNO.dir/src/menus/GameMenu.cpp.obj: \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\menus\GameMenu.cpp \
+ C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\menus\GameMenu.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\game.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\settings/Setting.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\engine\Turn.h \
@@ -93,5 +94,25 @@ CMakeFiles/UNO.dir/src/cards/wildcards/ReverseWildcard.cpp.obj: \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcard.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\Card.h \
  c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\normalcard.h \
- C:\Users\antho\OneDrive\Escritorio\Universidad\5to\ semestre\Estructura\ de\ datos\UNO_ED\Game\src\cards\wildcards\ReverseWildcard.h \
- c:\users\antho\onedrive\escritorio\universidad\5to\ semestre\estructura\ de\ datos\uno_ed\game\src\cards\wildcard.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\error_constants.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\streambuf \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwctype \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_base.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\streambuf_iterator.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_inline.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc
